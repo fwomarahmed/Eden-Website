@@ -15,6 +15,8 @@ app_license = "MIT"
 # app_include_js = "/assets/eden_app/js/eden_app.js"
 
 # include js, css files in header of web template
+web_include_css = "/css/eden_main_style.scss"
+web_include_js = "/js/eden_main.js"
 # web_include_css = "/assets/eden_app/css/eden_app.css"
 # web_include_js = "/assets/eden_app/js/eden_app.js"
 
@@ -38,7 +40,7 @@ app_license = "MIT"
 # ----------
 
 # application home page (will override Website Settings)
-# home_page = "login"
+home_page = "Home-eden"
 
 # website user home page (by Role)
 # role_home_page = {
