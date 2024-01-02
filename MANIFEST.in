@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include eden_app *.css
+recursive-include eden_app *.csv
+recursive-include eden_app *.html
+recursive-include eden_app *.ico
+recursive-include eden_app *.js
+recursive-include eden_app *.json
+recursive-include eden_app *.md
+recursive-include eden_app *.png
+recursive-include eden_app *.py
+recursive-include eden_app *.svg
+recursive-include eden_app *.txt
+recursive-exclude eden_app *.pyc
