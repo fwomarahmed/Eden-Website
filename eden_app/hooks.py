@@ -15,6 +15,7 @@ app_license = "MIT"
 # app_include_js = "/assets/eden_app/js/eden_app.js"
 
 # include js, css files in header of web template
+web_include_css ="/css/about-us.css"
 web_include_css = "/css/eden_main_style.scss"
 web_include_js = "/js/eden_main.js"
 # web_include_css = "/assets/eden_app/css/eden_app.css"

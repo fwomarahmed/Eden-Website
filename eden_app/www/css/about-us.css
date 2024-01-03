@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+    flex-direction: column; /* Stack children vertically */
+    /* Optional: Set a background color for the body */
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center content horizontally */
+    height: 90vh;
+}
+
+
+.gradient-container {
+    width: 850px;
+    height: 260px;
+    color: white;
+    display: flex;
+    position: relative;
+}
+
+.white-text {
+    margin: 0;
+    top:0;
+    font-size: 18px;
+    padding: 30px;
+    letter-spacing: 1.3px;
+    position: absolute; /* Add relative positioning to the text */
+    z-index: 2;
+}
+
+.after-container-image {
+    position: relative;
+    top: -120px;
+    left: 20px;
+    display: flex;
+    width: 125vh;
+    height: 70vh;
+    align-items: center; 
+    border-radius: 25px; 
+    border-top-left-radius: 60px !important; /* Apply border-radius to the bottom-right corner */
+    z-index: 1; /* Ensure the image is above the gradient-container */
+}
+.centered-container {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.about-us-text {
+    font-size: 26px;
+    font-weight: bold;
+ 
+    
+}
+
+.mission-text {
+    color: #0178fb; /* Blue color for the text */
+}
+.mission-section{
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+
+    padding: 10px; /* Center content horizontally */
+    
+}
