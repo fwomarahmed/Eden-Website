@@ -11,11 +11,12 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
+# app_include_css = ['eden_app.bundle']
 # app_include_css = "/assets/eden_app/css/eden_app.css"
 # app_include_js = "/assets/eden_app/js/eden_app.js"
 
 # include js, css files in header of web template
-web_include_css = "/css/eden_main_style.scss"
+web_include_css = "/css/eden_main_style.css"
 web_include_js = "/js/eden_main.js"
 # web_include_css = "/assets/eden_app/css/eden_app.css"
 # web_include_js = "/assets/eden_app/js/eden_app.js"
@@ -40,7 +41,7 @@ web_include_js = "/js/eden_main.js"
 # ----------
 
 # application home page (will override Website Settings)
-home_page = "Home-eden"
+home_page = "home-eden"
 
 # website user home page (by Role)
 # role_home_page = {
