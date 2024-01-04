@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Monument;
+    src: url("/fonts/Monument/MonumentGrotesk-Regular.otf");
+}
+*{ 
+    font-family: Monument;
+}
 /* ------------------------navbar */
 
 

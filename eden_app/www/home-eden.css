@@ -6,9 +6,10 @@
 }
 
 .hero_container h1 {
+    font-weight: 500;
     font-size: 38px;
     line-height: 54px;
-    letter-spacing: -1.8px;
+    /* letter-spacing: -1.8px; */
     color: white;
     margin-bottom: 31px;
     margin-top: 0;
@@ -20,7 +21,7 @@
     font-weight: 600;
     font-size: 12.51px;
     line-height: 18.35px;
-    letter-spacing: -0.25px;
+    /* letter-spacing: -0.25px; */
     color: #FFFFFF;
     width: 117px;
     height: 44px;
@@ -34,7 +35,7 @@
     font-weight: 600;
     font-size: 12.51px;
     line-height: 18.35px;
-    letter-spacing: -0.25px;
+    /* letter-spacing: -0.25px; */
     color: #FFFFFF;
     width: 115px;
     height: 44px;
