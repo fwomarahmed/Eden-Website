@@ -1,408 +1,1294 @@
-{% extends "templates/web.html" %}
-
-{% block page_content %}
+{% extends "templates/web.html" %} {% block page_content %}
 
 <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
 </head>
 <section class="hero_sec">
-    <div class="row">
-        <div class="col-md-7">
-
-            <div class="hero_container">
-                <h1>
-                    Empowering SMEs in the Middle East and Africa through Digital Transformation
-                </h1>
-                <div>
-                    <a href="#" class="btn btn_quote">Request a quote </a>
-                    <a href="#" class="btn btn_demo">Request a demo </a>
-                </div>
-
-            </div>
+  <div class="row">
+    <div class="col-md-7">
+      <div class="hero_container">
+        <h1>
+          Empowering SMEs in the Middle East and Africa through Digital
+          Transformation
+        </h1>
+        <div>
+          <a href="#" class="btn btn_quote">Request a quote </a>
+          <a href="#" class="btn btn_demo">Request a demo </a>
         </div>
-        <div class="col-md-5">
-            <div class="img_container">
-                <img src="/images/home/Looper_img_sec_1.svg" alt="">
-            </div>
-
-        </div>
+      </div>
     </div>
+    <div class="col-md-5">
+      <div class="img_container">
+        <img src="/images/home/Looper_img_sec_1.svg" alt="" />
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="sec_2">
-    <h6 class="sec_name">About EDEN</h6>
-    <h4 class="sec_title">Shape the future of your business</h4>
-    <p class="sec_subtitle">Connect your teams, processes, and data across your entire org to create exceptional
-        customer experiences and
-        operational agility.</p>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card_container">
-                    <div class="image_container">
-                        <img class="about_sec_img" src="/images/home/about_img_1.png" alt="">
-                    </div>
-                    <h5 class="card_title">Cloud-based ERP</h5>
-                    <p class="card_subtitle">Be more efficient with Microsoft Copilot for Dynamics 365—built-in
-                        AI-powered experiences
-                        available for select licenses at no additional cost.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card_container">
-                    <div class="image_container">
-                        <img class="about_sec_img" src="/images/home/about_img_2.png" alt="">
-                    </div>
-                    <h5 class="card_title">Full-fledged LMS</h5>
-                    <p class="card_subtitle">TalentLMS comes with all the tools you need, ready to go, right out of the
-                        box.</p>
-                </div>
-            </div>
+  <h6 class="sec_name">About EDEN</h6>
+  <h4 class="sec_title">Shape the future of your business</h4>
+  <p class="sec_subtitle">
+    Connect your teams, processes, and data across your entire org to create
+    exceptional customer experiences and operational agility.
+  </p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card_container">
+          <div class="image_container">
+            <img
+              class="about_sec_img"
+              src="/images/home/about_img_1.png"
+              alt=""
+            />
+          </div>
+          <h5 class="card_title">Cloud-based ERP</h5>
+          <p class="card_subtitle">
+            Be more efficient with Microsoft Copilot for Dynamics 365—built-in
+            AI-powered experiences available for select licenses at no
+            additional cost.
+          </p>
         </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card_container">
+          <div class="image_container">
+            <img
+              class="about_sec_img"
+              src="/images/home/about_img_2.png"
+              alt=""
+            />
+          </div>
+          <h5 class="card_title">Full-fledged LMS</h5>
+          <p class="card_subtitle">
+            TalentLMS comes with all the tools you need, ready to go, right out
+            of the box.
+          </p>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
 <section class="sec_3">
-    <div class="container">
-        <h6 class="sec_name">OUR WORKSHOPS</h6>
-        <h4 class="sec_title">Don’t miss out on any upcoming events by the team behind
-            ERPNext!</h4>
-        <div class="row">
-            <div class="col-md-4 pl-0">
-                <div class="card_container">
-                    <div class="image_container">
-                        <img class="about_sec_img" src="/images/home/workshop_1.png" alt="workshop event image">
-                        <span class="badge badge_notify">Upcoming</span>
-
-                    </div>
-                    <h5 class="card_title">Eden Local - Cairo 2024</h5>
-                    <p class="card_subtitle">This February 2024 , Frappe will join Aakvatech Limited &
-                        VV System Developer Limited to meet and connect with
-                        the</p>
-                    <div>
-                        <img class="icon_container" src="/images/home/tinme_icon.svg" alt="tinme_icon">
-                        <span class="icon_text"> Date: February 8, 2024</span>
-                    </div>
-                    <div class="">
-                        <img class="icon_container" src="/images/home/calendar_icon.svg" alt="calendar_icon">
-                        <span class="icon_text">Time: 3:30 PM EAT - 9:30 PM EAT</span>
-                    </div>
-                    <div class="btn_container">
-                        <a class="btn btn_reginster" href="">Register here !</a>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-md-4 ">
-                <div class="card_container">
-                    <div class="image_container">
-                        <img class="about_sec_img" src="/images/home/workshop_2.png" alt="workshop event image">
-                        <span class="badge badge_notify">Upcoming</span>
-
-                    </div>
-                    <h5 class="card_title">Eden Local - Cairo 2024</h5>
-                    <p class="card_subtitle">This February 2024 , Frappe will join Aakvatech Limited &
-                        VV System Developer Limited to meet and connect with
-                        the</p>
-                    <div>
-                        <img class="icon_container" src="/images/home/tinme_icon.svg" alt="tinme_icon">
-                        <span class="icon_text"> Date: February 8, 2024</span>
-                    </div>
-                    <div class="">
-                        <img class="icon_container" src="/images/home/calendar_icon.svg" alt="calendar_icon">
-                        <span class="icon_text">Time: 3:30 PM EAT - 9:30 PM EAT</span>
-                    </div>
-                    <div class="btn_container">
-                        <a class="btn btn_reginster" href="">Register here !</a>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card_container">
-                    <div class="image_container">
-                        <img class="about_sec_img" src="/images/home/workshop_3.png" alt="workshop event image">
-                        <span class="badge badge_notify">Upcoming</span>
-
-                    </div>
-                    <h5 class="card_title">Let's learn ERPNext</h5>
-                    <p class="card_subtitle"> Frappe is making a grand comeback with its highly anticipated annual
-                        conference in September 2023, and it's going to be bigger and better than ever before. While
-                        Frappe Conferences have traditionally focused on community growth and engaging discussions about
-                        ERPNext, this year we're ready to revolutionize the event and "Think beyond ERPNext."
-                    </p>
-
-
-
-                </div>
-            </div>
+  <div class="container">
+    <h6 class="sec_name">OUR WORKSHOPS</h6>
+    <h4 class="sec_title">
+      Don’t miss out on any upcoming events by the team behind ERPNext!
+    </h4>
+    <div class="row">
+      <div class="col-md-4 pl-0">
+        <div class="card_container">
+          <div class="image_container">
+            <img
+              class="about_sec_img"
+              src="/images/home/workshop_1.png"
+              alt="workshop event image"
+            />
+            <span class="badge badge_notify">Upcoming</span>
+          </div>
+          <h5 class="card_title">Eden Local - Cairo 2024</h5>
+          <p class="card_subtitle">
+            This February 2024 , Frappe will join Aakvatech Limited & VV System
+            Developer Limited to meet and connect with the
+          </p>
+          <div>
+            <img
+              class="icon_container"
+              src="/images/home/tinme_icon.svg"
+              alt="tinme_icon"
+            />
+            <span class="icon_text"> Date: February 8, 2024</span>
+          </div>
+          <div class="">
+            <img
+              class="icon_container"
+              src="/images/home/calendar_icon.svg"
+              alt="calendar_icon"
+            />
+            <span class="icon_text">Time: 3:30 PM EAT - 9:30 PM EAT</span>
+          </div>
+          <div class="btn_container">
+            <a class="btn btn_reginster" href="">Register here !</a>
+          </div>
         </div>
+      </div>
 
+      <div class="col-md-4">
+        <div class="card_container">
+          <div class="image_container">
+            <img
+              class="about_sec_img"
+              src="/images/home/workshop_2.png"
+              alt="workshop event image"
+            />
+            <span class="badge badge_notify">Upcoming</span>
+          </div>
+          <h5 class="card_title">Eden Local - Cairo 2024</h5>
+          <p class="card_subtitle">
+            This February 2024 , Frappe will join Aakvatech Limited & VV System
+            Developer Limited to meet and connect with the
+          </p>
+          <div>
+            <img
+              class="icon_container"
+              src="/images/home/tinme_icon.svg"
+              alt="tinme_icon"
+            />
+            <span class="icon_text"> Date: February 8, 2024</span>
+          </div>
+          <div class="">
+            <img
+              class="icon_container"
+              src="/images/home/calendar_icon.svg"
+              alt="calendar_icon"
+            />
+            <span class="icon_text">Time: 3:30 PM EAT - 9:30 PM EAT</span>
+          </div>
+          <div class="btn_container">
+            <a class="btn btn_reginster" href="">Register here !</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card_container">
+          <div class="image_container">
+            <img
+              class="about_sec_img"
+              src="/images/home/workshop_3.png"
+              alt="workshop event image"
+            />
+            <span class="badge badge_notify">Upcoming</span>
+          </div>
+          <h5 class="card_title">Let's learn ERPNext</h5>
+          <p class="card_subtitle">
+            Frappe is making a grand comeback with its highly anticipated annual
+            conference in September 2023, and it's going to be bigger and better
+            than ever before. While Frappe Conferences have traditionally
+            focused on community growth and engaging discussions about ERPNext,
+            this year we're ready to revolutionize the event and "Think beyond
+            ERPNext."
+          </p>
+        </div>
+      </div>
     </div>
-
+  </div>
 </section>
-
 
 <section class="sec_4">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6">
-                <h6 class="sec_name">SOLUTIONS</h6>
-                <h4 class="sec_title">Why Go Digital </h4>
-                <div class="accordio_container">
-                    <div id="accordion">
-                        <div class="accordion_container">
-                            <div class="" id="headingOne">
-                                <h5 class="mb-0 center_icon">
-                                    <button class="btn btn-link collapsed accordion_title" data-toggle="collapse"
-                                        data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        Know your customers to increase sales </button>
-                                    <span> <img src="/images/home/arrow_Vector.svg" alt="icon collapse"> </span>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <h6 class="sec_name">SOLUTIONS</h6>
+        <h4 class="sec_title">Why Go Digital</h4>
+        <div class="accordio_container">
+          <div id="accordion">
+            <div class="accordion_container">
+              <div class="" id="headingOne">
+                <h5 class="mb-0 center_icon">
+                  <button
+                    class="btn btn-link collapsed accordion_title"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    Know your customers to increase sales
+                  </button>
+                  <span>
+                    <img
+                      src="/images/home/arrow_Vector.svg"
+                      alt="icon collapse"
+                    />
+                  </span>
+                </h5>
+              </div>
+              <div
+                id="collapseOne"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#accordion"
+              >
+                <div class="accordion_body">
+                  Grow your revenue by using AI and real-time insights to
+                  understand customers, personalize journeys, and close more
+                  deals.
 
-
-
-                                </h5>
-                            </div>
-                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                                data-parent="#accordion">
-                                <div class="accordion_body">
-                                    Grow your revenue by using AI and real-time insights to
-                                    understand customers, personalize journeys, and close
-                                    more deals.
-
-                                    <div class="link_container">
-                                        <a class="accordion_link" href="">Learn more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion_container">
-                            <div class="" id="headingTwo">
-                                <h5 class="mb-0 center_icon">
-                                    <button class="btn btn-link collapsed accordion_title" data-toggle="collapse"
-                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Personalize service experiences </button>
-                                    <span> <img src="/images/home/arrow_Vector.svg" alt="icon collapse"> </span>
-
-                                </h5>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordion">
-                                <div class="accordion_body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus labore sustainable VHS.
-                                    <div class="link_container">
-                                        <a class="accordion_link" href="">Learn more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion_container">
-                            <div class="" id="headingThree">
-                                <h5 class="mb-0 center_icon">
-                                    <button class="btn btn-link collapsed accordion_title" data-toggle="collapse"
-                                        data-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        Move beyond traditional finance </button>
-                                    <span> <img src="/images/home/arrow_Vector.svg" alt="icon collapse"> </span>
-
-
-                                </h5>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                data-parent="#accordion">
-                                <div class="accordion_body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus labore sustainable VHS.
-                                    <div class="link_container">
-                                        <a class="accordion_link" href="">Learn more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion_container">
-                            <div class="" id="headingFour">
-                                <h5 class="mb-0 center_icon">
-                                    <button class="btn btn-link collapsed accordion_title" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Deliver more supply chain agility </button>
-                                    <span> <img src="/images/home/arrow_Vector.svg" alt="icon collapse"> </span>
-
-                                </h5>
-                            </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                data-parent="#accordion">
-                                <div class="accordion_body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus labore sustainable VHS.
-                                    <div class="link_container">
-                                        <a class="accordion_link" href="">Learn more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion_container">
-                            <div class="" id="headingFive">
-                                <h5 class="mb-0 center_icon">
-                                    <button class="btn btn-link collapsed accordion_title" data-toggle="collapse"
-                                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        Ready your business for growth </button>
-                                    <span> <img src="/images/home/arrow_Vector.svg" alt="icon collapse"> </span>
-
-                                </h5>
-                            </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                                data-parent="#accordion">
-                                <div class="accordion_body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus labore sustainable VHS.
-                                    <div class="link_container">
-                                        <a class="accordion_link" href="">Learn more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  <div class="link_container">
+                    <a class="accordion_link" href="">Learn more</a>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="col-md-6">
-                <div class="img_container">
-                    <img src="/images/home/planet_solutions.svg" alt="planet_solutions img">
+            <div class="accordion_container">
+              <div class="" id="headingTwo">
+                <h5 class="mb-0 center_icon">
+                  <button
+                    class="btn btn-link collapsed accordion_title"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Personalize service experiences
+                  </button>
+                  <span>
+                    <img
+                      src="/images/home/arrow_Vector.svg"
+                      alt="icon collapse"
+                    />
+                  </span>
+                </h5>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="accordion_body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa
+                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                  aliqua put a bird on it squid single-origin coffee nulla
+                  assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                  beer labore wes anderson cred nesciunt sapiente ea proident.
+                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                  beer farm-to-table, raw denim aesthetic synth nesciunt you
+                  probably haven't heard of them accusamus labore sustainable
+                  VHS.
+                  <div class="link_container">
+                    <a class="accordion_link" href="">Learn more</a>
+                  </div>
                 </div>
+              </div>
             </div>
+            <div class="accordion_container">
+              <div class="" id="headingThree">
+                <h5 class="mb-0 center_icon">
+                  <button
+                    class="btn btn-link collapsed accordion_title"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Move beyond traditional finance
+                  </button>
+                  <span>
+                    <img
+                      src="/images/home/arrow_Vector.svg"
+                      alt="icon collapse"
+                    />
+                  </span>
+                </h5>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="accordion_body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa
+                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                  aliqua put a bird on it squid single-origin coffee nulla
+                  assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                  beer labore wes anderson cred nesciunt sapiente ea proident.
+                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                  beer farm-to-table, raw denim aesthetic synth nesciunt you
+                  probably haven't heard of them accusamus labore sustainable
+                  VHS.
+                  <div class="link_container">
+                    <a class="accordion_link" href="">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion_container">
+              <div class="" id="headingFour">
+                <h5 class="mb-0 center_icon">
+                  <button
+                    class="btn btn-link collapsed accordion_title"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Deliver more supply chain agility
+                  </button>
+                  <span>
+                    <img
+                      src="/images/home/arrow_Vector.svg"
+                      alt="icon collapse"
+                    />
+                  </span>
+                </h5>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordion"
+              >
+                <div class="accordion_body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa
+                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                  aliqua put a bird on it squid single-origin coffee nulla
+                  assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                  beer labore wes anderson cred nesciunt sapiente ea proident.
+                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                  beer farm-to-table, raw denim aesthetic synth nesciunt you
+                  probably haven't heard of them accusamus labore sustainable
+                  VHS.
+                  <div class="link_container">
+                    <a class="accordion_link" href="">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion_container">
+              <div class="" id="headingFive">
+                <h5 class="mb-0 center_icon">
+                  <button
+                    class="btn btn-link collapsed accordion_title"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    Ready your business for growth
+                  </button>
+                  <span>
+                    <img
+                      src="/images/home/arrow_Vector.svg"
+                      alt="icon collapse"
+                    />
+                  </span>
+                </h5>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                aria-labelledby="headingFive"
+                data-parent="#accordion"
+              >
+                <div class="accordion_body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa
+                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                  aliqua put a bird on it squid single-origin coffee nulla
+                  assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                  beer labore wes anderson cred nesciunt sapiente ea proident.
+                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                  beer farm-to-table, raw denim aesthetic synth nesciunt you
+                  probably haven't heard of them accusamus labore sustainable
+                  VHS.
+                  <div class="link_container">
+                    <a class="accordion_link" href="">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="col-md-6">
+        <div class="img_container">
+          <img
+            src="/images/home/planet_solutions.svg"
+            alt="planet_solutions img"
+          />
+        </div>
+      </div>
     </div>
+  </div>
 </section>
-
 
 <section class="sec_5">
-    <div class="container">
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="img_container">
-                                <img src="/images/home/sloution_img.png" alt="sloution_img">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="slide_container">
-                                <h6 class="sec_name">Solutions</h6>
-                                <h4 class="sec_title">Retail & Manufacturing </h4>
-                                <p class="slide_text">Unleashing the Beauty of Handmade Furniture: Elevate Your Space with Artistry and Quality
-                                </p>
-                                <p class="slide_text mb_11">
-                                    Exquisite Handmade Furniture: Meticulously Crafted for Timeless Beauty.
-                                </p>
-                                <div class="mb_18">
-                                    <a href="" class="btn_read_more">Read more</a>
-                                    <span class="arrow_container"> <img src="/images/home/rigt_arrow_Icon.svg" class="icon_arrow" alt="icon_arrow"> </span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                </div>
-
-
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                ...
+  <div class="container">
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="img_container">
+                <img src="/images/home/sloution_img.png" alt="sloution_img" />
+              </div>
             </div>
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"> <img src="/images/home/prev_btn_slider.svg" alt="prev_btn_slider"> </div>
-            <div class="swiper-button-next"> <img src="/images/home/next_btn_slider.svg" alt="next_btn_slider">  </div>
-
+            <div class="col-md-6">
+              <div class="slide_container">
+                <h6 class="sec_name">Solutions</h6>
+                <h4 class="sec_title">Retail & Manufacturing</h4>
+                <p class="slide_text">
+                  Unleashing the Beauty of Handmade Furniture: Elevate Your
+                  Space with Artistry and Quality
+                </p>
+                <p class="slide_text mb_11">
+                  Exquisite Handmade Furniture: Meticulously Crafted for
+                  Timeless Beauty.
+                </p>
+                <div class="mb_18">
+                  <a href="" class="btn_read_more">Read more</a>
+                  <span class="arrow_container">
+                    <img
+                      src="/images/home/rigt_arrow_Icon.svg"
+                      class="icon_arrow"
+                      alt="icon_arrow"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="img_container">
+                <img src="/images/home/sloution_img.png" alt="sloution_img" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="slide_container">
+                <h6 class="sec_name">Solutions</h6>
+                <h4 class="sec_title">Retail & Manufacturing</h4>
+                <p class="slide_text">
+                  Unleashing the Beauty of Handmade Furniture: Elevate Your
+                  Space with Artistry and Quality
+                </p>
+                <p class="slide_text mb_11">
+                  Exquisite Handmade Furniture: Meticulously Crafted for
+                  Timeless Beauty.
+                </p>
+                <div class="mb_18">
+                  <a href="" class="btn_read_more">Read more</a>
+                  <span class="arrow_container">
+                    <img
+                      src="/images/home/rigt_arrow_Icon.svg"
+                      class="icon_arrow"
+                      alt="icon_arrow"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="img_container">
+                <img src="/images/home/sloution_img.png" alt="sloution_img" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="slide_container">
+                <h6 class="sec_name">Solutions</h6>
+                <h4 class="sec_title">Retail & Manufacturing</h4>
+                <p class="slide_text">
+                  Unleashing the Beauty of Handmade Furniture: Elevate Your
+                  Space with Artistry and Quality
+                </p>
+                <p class="slide_text mb_11">
+                  Exquisite Handmade Furniture: Meticulously Crafted for
+                  Timeless Beauty.
+                </p>
+                <div class="mb_18">
+                  <a href="" class="btn_read_more">Read more</a>
+                  <span class="arrow_container">
+                    <img
+                      src="/images/home/rigt_arrow_Icon.svg"
+                      class="icon_arrow"
+                      alt="icon_arrow"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- If we need navigation buttons -->
+      <div class="nav_btns_wrapper">
+        <div class="custom-button-prev">
+          <img src="/images/home/prev_btn_slider.svg" alt="Previous" />
+        </div>
+        <div class="custom-button-next">
+          <img src="/images/home/next_btn_slider.svg" alt="Next" />
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
+<section class="sec_6">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="img_container">
+          <img src="/images/home/sec_6_img.png" alt="sec_6_img" />
+        </div>
+      </div>
+      <div class="col-md-6 d-flex align-center">
+        <div class="text_container">
+          <h3>Enjoy the benefits of having Our funded program</h3>
+          <div class="mb_15">
+            <span class="pr_6">
+              <img
+                src="/images/home/icon_check_true.svg"
+                alt="icon_check_true"
+              />
+            </span>
+            <span class="text_card"
+              >Save on your tech stack with one HR and payroll platform</span
+            >
+          </div>
 
+          <div class="mb_15">
+            <span class="pr_6">
+              <img
+                src="/images/home/icon_check_true.svg"
+                alt="icon_check_true"
+              />
+            </span>
+            <span class="text_card"
+              >Reduce onboarding time to just 5 minutes</span
+            >
+          </div>
+          <div class="mb_15">
+            <span class="pr_6">
+              <img
+                src="/images/home/icon_check_true.svg"
+                alt="icon_check_true"
+              />
+            </span>
+            <span class="text_card"
+              >Eliminate errors and duplicate work with one process</span
+            >
+          </div>
+          <div class="mb_15">
+            <span class="pr_6">
+              <img
+                src="/images/home/icon_check_true.svg"
+                alt="icon_check_true"
+              />
+            </span>
+            <span class="text_card"
+              >Get a holistic view of employer costs, headcount and churn</span
+            >
+          </div>
+          <div class="mb_15">
+            <span class="pr_6">
+              <img
+                src="/images/home/icon_check_true.svg"
+                alt="icon_check_true"
+              />
+            </span>
+            <span class="text_card"
+              >Give your whole team a consistent experience</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- first sec wit tabs -->
 
+<section class="sec_7">
+  <h6 class="sec_name">Modules</h6>
+  <h4 class="sec_title">Do more with Dynamics 365 and AI</h4>
+  <p class="sec_subtitle">
+    See how AI works with Dynamics 365 applications to give every team an edge.
+  </p>
+  <div class="container">
+    <div>
+      <ul class="nav nav-pills mb_14" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active first_tab"
+            id="pills-home-tab"
+            data-toggle="pill"
+            data-target="#pills-Sales"
+          >
+            Sales
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-profile-tab"
+            data-toggle="pill"
+            data-target="#pills-Marketing"
+          >
+            Marketing
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            data-target="#pills-Customer"
+          >
+            Customer service
+          </button>
+        </li>
 
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            data-target="#pills-Field"
+          >
+            Field service
+          </button>
+        </li>
 
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            data-target="#pills-Supply"
+          >
+            Supply chain
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link last_tab"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            data-target="#pills-Finance"
+          >
+            Finance
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-Sales" role="tabpanel">
+          <div>
+            <h6 class="tab_title">
+              Close more deals and deepen customer relationships with AI
+              assistance.
+            </h6>
+            <div class="text-center">
+              <img
+                class="pl-1"
+                width="17"
+                height="17"
+                src="/images/home/icon_pill.svg"
+                alt="icon_pill.svg"
+              />
+              <span class="icon_text">Dynamics 365 Sales</span>
+            </div>
+            <div class="img_container">
+              <img src="/images/home/module_slide_1.png" alt="module_slide_1" />
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-Marketing" role="tabpanel">
+          <div>
+            <h6 class="tab_title">
+              Close more deals and deepen customer relationships with AI
+              assistance.
+            </h6>
+            <div class="text-center">
+              <img
+                class="pl-1"
+                width="17"
+                height="17"
+                src="/images/home/icon_pill.svg"
+                alt="icon_pill.svg"
+              />
+              <span class="icon_text">Dynamics 365 Sales</span>
+            </div>
+            <div class="img_container">
+              <img src="/images/home/module_slide_1.png" alt="module_slide_1" />
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-Customer" role="tabpanel">
+          <div>
+            <h6 class="tab_title">
+              Close more deals and deepen customer relationships with AI
+              assistance.
+            </h6>
+            <div class="text-center">
+              <img
+                class="pl-1"
+                width="17"
+                height="17"
+                src="/images/home/icon_pill.svg"
+                alt="icon_pill.svg"
+              />
+              <span class="icon_text">Dynamics 365 Sales</span>
+            </div>
+            <div class="img_container">
+              <img src="/images/home/module_slide_1.png" alt="module_slide_1" />
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-Field" role="tabpanel">
+          <div>
+            <h6 class="tab_title">
+              Close more deals and deepen customer relationships with AI
+              assistance.
+            </h6>
+            <div class="text-center">
+              <img
+                class="pl-1"
+                width="17"
+                height="17"
+                src="/images/home/icon_pill.svg"
+                alt="icon_pill.svg"
+              />
+              <span class="icon_text">Dynamics 365 Sales</span>
+            </div>
+            <div class="img_container">
+              <img src="/images/home/module_slide_1.png" alt="module_slide_1" />
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-Supply" role="tabpanel">
+          <div>
+            <h6 class="tab_title">
+              Close more deals and deepen customer relationships with AI
+              assistance.
+            </h6>
+            <div class="text-center">
+              <img
+                class="pl-1"
+                width="17"
+                height="17"
+                src="/images/home/icon_pill.svg"
+                alt="icon_pill.svg"
+              />
+              <span class="icon_text">Dynamics 365 Sales</span>
+            </div>
+            <div class="img_container">
+              <img src="/images/home/module_slide_1.png" alt="module_slide_1" />
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-Finance" role="tabpanel">
+          <div>
+            <h6 class="tab_title">
+              Close more deals and deepen customer relationships with AI
+              assistance.
+            </h6>
+            <div class="text-center">
+              <img
+                class="pl-1"
+                width="17"
+                height="17"
+                src="/images/home/icon_pill.svg"
+                alt="icon_pill.svg"
+              />
+              <span class="icon_text">Dynamics 365 Sales</span>
+            </div>
+            <div class="img_container">
+              <img src="/images/home/module_slide_1.png" alt="module_slide_1" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- first sec wit tabs -->
 
+<section class="sec_8">
+  <div class="container">
+    <div class="sec_container">
+      <h5>Trusted by companies small and large around the globe</h5>
+      <div class="logos_container">
+        <img src="./images/home/1-ringkas.svg" alt="logo 1" />
+        <img src="./images/home/2-OSS-transformed.svg" alt="logo 2" />
+        <img src="./images/home/3-Kick-Avenue-transformed 1.svg" alt="logo 3" />
+        <img
+          src="./images/home/4-Logo-Alvindo-Catur-Sentosa-transformed.svg"
+          alt="logo 4"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+<!-- second sec wit tabs -->
+<section class="sec_9">
+  <div class="container">
+    <h6 class="sec_name">Customer stories</h6>
+    <h4 class="sec_title">How customers innovate with Dynamics 365</h4>
+    <!-- <p class="sec_subtitle">
+    “We now have the tools and technologies that we were limited by before.”
+    Brian Balzer, VP of Digital Technology & Business Transformation, G&J Pepsi
+  </p> -->
 
+    <div class="position-relative">
+      <ul class="nav nav-pills nav_btns" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active first_tab"
+            id="pills-home-tab"
+            data-toggle="pill"
+            data-target="#pills-hope"
+          >
+            <img src="/images/home/hope.png" alt="hope.png" />
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-profile-tab"
+            data-toggle="pill"
+            data-target="#pills-rinkkas"
+          >
+            <img src="/images/home/rinkkas_logo.png" alt="rinkkas_logo.png" />
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link last_tab"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            data-target="#pills-ASC"
+          >
+            <img src="/images/home/ASC.png" alt="ASC.png" />
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-hope" role="tabpanel">
+          <div class="row">
+            <div class="col-md-6">
+              <div>
+                <div class="client_logo_container">
+                  <img src="/images/home/hope.png" alt="hope.png" />
+                </div>
+                <p class="tab_text">
+                  “We now have the tools and technologies that we were limited
+                  by before.” Brian Balzer, VP of Digital Technology & Business
+                  Transformation, G&J Pepsi
+                </p>
+                <div class="ratio_container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div>
+                        <img
+                          src="/images/home/ration_icon_column.svg"
+                          alt="ration_icon_column.svg"
+                        />
+                        <span class="ratio_text">8%</span>
+                      </div>
+                      <div class="increament_type">Increase in revenue</div>
+                    </div>
+                    <div class="col-md-6">
+                      <div>
+                        <img
+                          src="/images/home/ration_icon_column.svg"
+                          alt="ration_icon_column.svg"
+                        />
+                        <span class="ratio_text">6.6%</span>
+                      </div>
+                      <div class="increament_type">
+                        Decrease in operating expenses
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img_container">
+                <img src="/images/home/client_1.png" alt="client_1.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-rinkkas" role="tabpanel">
+          <div class="row">
+            <div class="col-md-6">
+              <div>
+                <div class="client_logo_container">
+                  <img src="/images/home/rinkkas_logo.png" alt="rinkkas_logo" />
+                </div>
+                <p class="tab_text">
+                  “We now have the tools and technologies that we were limited
+                  by before.” Brian Balzer, VP of Digital Technology & Business
+                  Transformation, G&J Pepsi
+                </p>
+                <div class="ratio_container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div>
+                        <img
+                          src="/images/home/ration_icon_column.svg"
+                          alt="ration_icon_column.svg"
+                        />
+                        <span class="ratio_text">8%</span>
+                      </div>
+                      <div class="increament_type">Increase in revenue</div>
+                    </div>
+                    <div class="col-md-6">
+                      <div>
+                        <img
+                          src="/images/home/ration_icon_column.svg"
+                          alt="ration_icon_column.svg"
+                        />
+                        <span class="ratio_text">6.6%</span>
+                      </div>
+                      <div class="increament_type">
+                        Decrease in operating expenses
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img_container">
+                <img src="/images/home/client_1.png" alt="client_1.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-ASC" role="tabpanel">
+          <div class="row">
+            <div class="col-md-6">
+              <div>
+                <div class="client_logo_container">
+                  <img src="/images/home/ASC.png" alt="ASC.png" />
+                </div>
+                <p class="tab_text">
+                  “We now have the tools and technologies that we were limited
+                  by before.” Brian Balzer, VP of Digital Technology & Business
+                  Transformation, G&J Pepsi
+                </p>
+                <div class="ratio_container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div>
+                        <img
+                          src="/images/home/ration_icon_column.svg"
+                          alt="ration_icon_column.svg"
+                        />
+                        <span class="ratio_text">8%</span>
+                      </div>
+                      <div class="increament_type">Increase in revenue</div>
+                    </div>
+                    <div class="col-md-6">
+                      <div>
+                        <img
+                          src="/images/home/ration_icon_column.svg"
+                          alt="ration_icon_column.svg"
+                        />
+                        <span class="ratio_text">6.6%</span>
+                      </div>
+                      <div class="increament_type">
+                        Decrease in operating expenses
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img_container">
+                <img src="/images/home/client_1.png" alt="client_1.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- second sec wit tabs -->
 
+<section class="sec_10">
+  <h4 class="sec_title">Why Choose Eden</h4>
+  <div class="container">
+    <div class="cards_container">
+      <div class="row">
+        <div class="col-md-4 px-0">
+          <div class="plan_container">
+            <div class="img_container">
+              <img src="/images/home/sec_10_time_icon.svg" alt="time_icon" />
+            </div>
+            <p class="card_text">
+              60%: time savings in reporting on sales data
+            </p>
+          </div>
+        </div>
 
+        <div class="col-md-4 px-0">
+          <div class="plan_container">
+            <div class="img_container">
+              <img
+                src="/images/home/sec_10_saving money icon.svg"
+                alt="sec_10_saving money icon"
+              />
+            </div>
+            <p class="card_text">
+              $1.5M: savings from improved supply chain efficiency
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 px-0">
+          <div class="plan_container">
+            <div class="img_container">
+              <img
+                src="/images/home/sec_10_money_icon.svg"
+                alt="sec_10_money_icon.svg"
+              />
+            </div>
+            <p class="card_text last_card_text">
+              Up to 55%: increase in finance team productivity
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- sec_11_second slider -->
+<section class="sec_11">
+  <div class="container">
+    <h6 class="sec_name">Featured news</h6>
+    <h4 class="sec_title">What’s new and notable</h4>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="slide_container">
+                <h6 class="sec_name">Lighten your workload with AI</h6>
 
+                <p class="slide_text">
+                  Learn how new Microsoft Copilot features help you speed
+                  through tasks, quickly summarize content, and build momentum
+                  to take on your day.
+                </p>
 
-<style>
-    .swiper {
-        /* width: 600px; */
-        height: 381px;
-    }
-</style>
+                <div class="read_blog_link">
+                  <span class="arrow_container">
+                    <img
+                      src="/images/home/rigt_arrow_Icon.svg"
+                      class="icon_arrow"
+                      alt="icon_arrow"
+                    />
+                  </span>
+                  <a href="" class="btn_read_more">Read the blog</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img_container">
+                <img
+                  src="/images/home/featured_news_2nd_slider.png"
+                  alt="featured_news_2nd_slider"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="slide_container">
+                <h6 class="sec_name">Lighten your workload with AI</h6>
 
+                <p class="slide_text">
+                  Learn how new Microsoft Copilot features help you speed
+                  through tasks, quickly summarize content, and build momentum
+                  to take on your day.
+                </p>
 
+                <div class="read_blog_link">
+                  <span class="arrow_container">
+                    <img
+                      src="/images/home/rigt_arrow_Icon.svg"
+                      class="icon_arrow"
+                      alt="icon_arrow"
+                    />
+                  </span>
+                  <a href="" class="btn_read_more">Read the blog</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img_container">
+                <img
+                  src="/images/home/featured_news_2nd_slider.png"
+                  alt="featured_news_2nd_slider"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="slide_container">
+                <h6 class="sec_name">Lighten your workload with AI</h6>
 
+                <p class="slide_text">
+                  Learn how new Microsoft Copilot features help you speed
+                  through tasks, quickly summarize content, and build momentum
+                  to take on your day.
+                </p>
 
+                <div class="read_blog_link">
+                  <span class="arrow_container">
+                    <img
+                      src="/images/home/rigt_arrow_Icon.svg"
+                      class="icon_arrow"
+                      alt="icon_arrow"
+                    />
+                  </span>
+                  <a href="" class="btn_read_more">Read the blog</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img_container">
+                <img
+                  src="/images/home/featured_news_2nd_slider.png"
+                  alt="featured_news_2nd_slider"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- If we need navigation buttons -->
+      <div class="nav_btns_wrapper">
+        <div class="custom-button-prev">
+          <img src="/images/home/prev_btn_slider.svg" alt="Previous" />
+        </div>
+        <div class="custom-button-next">
+          <img src="/images/home/next_btn_slider.svg" alt="Next" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- sec_11_second slider -->
+<!-- sec_12 last sec -->
+<section class="sec_12">
+  <h4 class="sec_title">Get started with Dynamics 365</h4>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 px-0">
+        <div class="card_container">
+          <div class="icon_text_cont">
+            <div class="icon_cont">
+              <img src="/images/home/comp_icon.svg" alt="" />
+            </div>
+            <h5 class="card_title">Try for free</h5>
+            <p class="card_text">
+              Get hands-on experience with Dynamics 365 business applications
+              for 30 days.
+            </p>
+          </div>
+          <div class="read_blog_link">
+            <span class="arrow_container">
+              <img
+                src="/images/home/rigt_arrow_Icon.svg"
+                class="icon_arrow"
+                alt="icon_arrow"
+              />
+            </span>
+            <a href="" class="btn_read_more">Start a free trial</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="col-md-4 px-0">
+        <div class="card_container">
+          <div class="icon_text_cont">
+            <div class="icon_cont">
+              <img src="/images/home/chat_icon.svg" alt="chat_icon" />
+            </div>
+            <h5 class="card_title">Contact us</h5>
+            <p class="card_text">
+              Call, chat, or connect with a sales specialist for personalized
+              guidance.
+            </p>
+          </div>
+          <div class="read_blog_link">
+            <span class="arrow_container">
+              <img
+                src="/images/home/rigt_arrow_Icon.svg"
+                class="icon_arrow"
+                alt="icon_arrow"
+              />
+            </span>
+            <a href="" class="btn_read_more">Get in touch</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 px-0">
+        <div class="card_container">
+          <div class="icon_text_cont">
+            <div class="icon_cont">
+              <img src="/images/home/docs_icon.svg" alt="docs_icon" />
+            </div>
+            <h5 class="card_title">Learn more</h5>
+            <p class="card_text">
+              Get documentation on how to deploy, use, and manage Dynamics 365
+              applications.
+            </p>
+          </div>
+          <div class="read_blog_link">
+            <span class="arrow_container">
+              <img
+                src="/images/home/rigt_arrow_Icon.svg"
+                class="icon_arrow"
+                alt="icon_arrow"
+              />
+            </span>
+            <a href="" class="btn_read_more">Browse resources</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-
-
+<!-- sec_11 last sec -->
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        // direction: 'vertical',
-        // loop: true,
-
-        // If we need pagination
-        // pagination: {
-        //     el: '.swiper-pagination',
-        // },
-
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-
-        // And if we need scrollbar
-        // scrollbar: {
-        //     el: '.swiper-scrollbar',
-        // },
-    });
+  const swiper = new Swiper(".swiper", {
+    // Navigation arrows
+    navigation: {
+      nextEl: ".custom-button-next",
+      prevEl: ".custom-button-prev",
+    },
+  });
 </script>
-
 {% endblock %}
