@@ -1,189 +1,246 @@
 @font-face {
-    font-family: Monument;
-    src: url("/fonts/Monument/MonumentGrotesk-Regular.otf");
+  font-family: Monument;
+  src: url("/fonts/Monument/MonumentGrotesk-Regular.otf");
 }
-*{ 
-    font-family: Monument;
+* {
+  font-family: Monument;
 }
 /* ------------------------navbar */
 
-
 .navbar-expand-lg .navbar-nav .nav-link {
-    color: black;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.2px;
-    padding-right: 20px;
-    padding-left: 20px;
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
 }
 
 .nav-link.active {
-    border-bottom: 5px solid #1F5AA7;
+  border-bottom: 0.3125rem solid #1f5aa7;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.active,
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-    color: #2159A6;
-
+  color: #2159a6;
 }
 
 .navbar-nav .btn_contact {
-    color: white;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    background-color: #2589AD;
-    padding: 9px 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  background-color: #2589ad;
+  padding: 0.5625rem 0.9375rem;
 }
 
 .navbar .dropdown-item:active {
-    color: #2159A6;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    background-color: transparent;
+  color: #2159a6;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  background-color: transparent;
 }
 
 .navbar .mr_100 {
-    margin-right: 100px;
+  margin-right: 6.25rem;
 }
 
 .navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    background-size: 100% 100%;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
 }
 
 .navbar_white .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar_white .navbar-toggler {
-    color: rgba(0, 0, 0, .5);
-    border-color: rgba(0, 0, 0, .1);
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
 }
 
 /* ------------------------navbar */
 /* ------------------------footer */
 
 footer.footer {
-    background-color: #2159A6;
-    min-height: 289px;
-    color: white;
-    padding: 35px 167.9px 26px 43px;
+  background-color: #2159a6;
+  min-height: 18.0625rem;
+  color: white;
+  padding: 2.1875rem 10.49375rem 1.625rem 2.6875rem;
 }
 
 .colum_title {
-    color: #AAD4F7;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 19.2px;
-    margin-bottom: 24px;
-    letter-spacing: 0.1em;
-
+  color: #aad4f7;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.1em;
 }
 
 .contact_info_text {
-    color: #DDF3FF;
-    font-size: 17.04px;
-    font-weight: 700;
-    line-height: 20.45px;
-
-
+  color: #ddf3ff;
+  font-size: 1.065rem;
+  font-weight: 700;
+  line-height: 1.278125rem;
 }
 
 .contact_info_text:hover {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .mb_27 {
-    margin-bottom: 27px;
+  margin-bottom: 1.6875rem;
 }
 
 .mb_26 {
-    margin-bottom: 26px;
+  margin-bottom: 1.625rem;
 }
 
 .mb_35 {
-    margin-bottom: 35px;
+  margin-bottom: 2.1875rem;
 }
 
 .mb_19 {
-    margin-bottom: 19.47px;
+  margin-bottom: 1.216875rem;
 }
 
 .icon_contact {
-    width: 20px;
-    height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .location_icon {
-    width: 35px;
-    height: 35px;
+  width: 2.1875rem;
+  height: 2.1875rem;
 }
 
 .mb_15 {
-    margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 .mb_27 {
-    margin-bottom: 27px;
+  margin-bottom: 1.6875rem;
 }
 
 .mb_19 {
-    margin-bottom: 19px;
+  margin-bottom: 1.1875rem;
 }
 
 .mt_70 {
-    margin-top: 70px;
+  margin-top: 4.375rem;
 }
 
 .follow_sec h5 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 13px;
-    color: white;
-    margin-bottom: 41px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 0.8125rem;
+  color: white;
+  margin-bottom: 2.5625rem;
 }
 
 .social_icon_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social_icon_container a {
-    margin-right: 20.62px;
-    width: 34.22px;
-    height: 34.22px;
-    background-color: #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-right: 1.28875rem;
+  width: 2.13875rem;
+  height: 2.13875rem;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .divider hr {
-    padding: 0;
-    margin-bottom: 26.63px;
-    background-color: #AAD4F7;
+  padding: 0;
+  margin-bottom: 1.664375rem;
+  background-color: #aad4f7;
 }
 
 .copyright {
-    font-weight: 400;
-    font-size: 14.91px;
-    line-height: 17.89px;
-    color: #AAD4F7;
+  font-weight: 400;
+  font-size: 0.931875rem;
+  line-height: 1.118125rem;
+  color: #aad4f7;
 }
 
-
-
-
-
 /* ------------------------footer */
+
+/* =======================media query ============================================ */
+
+/* Default Font Size for PC Screen */
+html {
+  font-size: 16px; /* Set the base font size for PC */
+}
+
+/* Media Query for Tablet Screen */
+@media (max-width: 1024px) {
+  html {
+    font-size: 14px; /* Adjust font size for tablets (e.g., iPad) */
+  }
+  body {
+    border: 5px solid red;
+  }
+}
+
+/* Media Query for Large Mobile Screen */
+@media (max-width: 768px) {
+  html {
+    font-size: 13px; /* Adjust font size for large mobile screens (e.g., iPhone 6/7/8 Plus) */
+  }
+  body {
+    border: 5px solid green;
+  }
+
+  .navbar .mr_100 {
+    margin-right: 0;
+  }
+
+  footer.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* Media Query for Medium Mobile Screen */
+@media (max-width: 425px) {
+  html {
+    font-size: 12px; /* Adjust font size for medium mobile screens (e.g., iPhone 6/7/8) */
+  }
+  body {
+    border: 5px solid blue;
+  }
+}
+
+/* Media Query for Small Mobile Screen */
+@media (max-width: 375px) {
+  html {
+    font-size: 11px; /* Adjust font size for small mobile screens (e.g., iPhone 5/SE) */
+  }
+  body {
+    border: 5px solid orange;
+  }
+}
+
+/* Media Query for Extra Small Mobile Screen */
+@media (max-width: 320px) {
+  html {
+    font-size: 10px; /* Adjust font size for extra small mobile screens (e.g., iPhone 4) */
+  }
+  body {
+    border: 5px solid cyan;
+  }
+}
