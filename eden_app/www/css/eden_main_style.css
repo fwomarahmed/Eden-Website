@@ -72,7 +72,10 @@ footer.footer {
   background-color: #2159a6;
   min-height: 18.0625rem;
   color: white;
-  padding: 2.1875rem 10.49375rem 1.625rem 2.6875rem;
+  padding-left: 96px;
+  padding-right: 130px;
+  padding-top: 35px;
+  padding-bottom: 26px;
 }
 
 .colum_title {
@@ -175,8 +178,15 @@ footer.footer {
   font-size: 0.931875rem;
   line-height: 1.118125rem;
   color: #aad4f7;
+  display: flex;
+  justify-content: space-between;
 }
-
+.img_footer_container {
+  max-width: 272px;
+}
+.first_col{
+  margin-right: 134px;
+}
 /* ------------------------footer */
 
 /* =======================media query ============================================ */

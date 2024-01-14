@@ -52,7 +52,7 @@ p {
   line-height: 1.146875rem;
   /* letter-spacing: -0.015625rem; */
   color: #ffffff;
-  width: 7.1875rem;
+  width: auto;
   height: 2.75rem;
   padding: 0.75rem 0.375rem 1rem 0.625rem;
   border: 0.104375rem solid #ffffff;
@@ -456,6 +456,7 @@ p {
 .sec_6 {
   background-image: url("/images/home/sec_6_bg.png");
   min-height: 32.4375rem;
+  background-repeat: no-repeat;
 }
 
 .sec_6 .img_container {
@@ -505,6 +506,7 @@ p {
   padding-bottom: 1.1875rem;
   min-height: 38.5625rem;
   background-image: url("/images/home/sec_7_bg.png");
+  background-repeat: no-repeat;
 }
 
 .sec_7 .container {
@@ -611,6 +613,7 @@ p {
 .sec_8 .sec_container {
   margin: auto;
   background-image: url("/images/home/sec_8_bg.png");
+  background-image: no-repeat;
 }
 
 .sec_8 h5 {
@@ -719,9 +722,9 @@ p {
   color: #0e1726;
   padding: 0.7125rem 3.418125rem 1.04rem 1rem;
   background-color: white;
-  /* box-shadow: 0rem 0.043086081743240356rem 0.08548825234174728rem 0rem #00000024; */
+  box-shadow: 0rem 0.043086081743240356rem 0.08548825234174728rem 0rem #00000024;
 
-  box-shadow: 0rem 0rem 0.08548825234174728rem 0rem #0000001f;
+  /* box-shadow: 0rem 0rem 0.08548825234174728rem 0rem #0000001f; */
   border: none;
   border-right: 0.0425rem solid #bdc5d2;
 }
@@ -759,6 +762,8 @@ p {
   position: absolute;
   left: 50%;
   bottom: -3.75rem;
+  width: 100%;
+  justify-content: center;
 }
 /* .sec_9 */
 /* sec_10 */
@@ -785,6 +790,8 @@ p {
   text-align: center;
   padding-top: 0.458125rem;
   padding-bottom: 0.125rem;
+  max-height: 106px;
+
 }
 .sec_10 .card_text {
   font-size: 1.3125rem;
@@ -801,13 +808,14 @@ p {
 }
 .sec_10 .last_card_text {
   padding-left: 2.9375rem;
+  padding-right: 1rem;
 }
 
 /* sec_10 */
 /* sec_11_second slider  */
-.sec_11 {
+/* .sec_11 {
   min-height: 38.1875rem;
-}
+} */
 .sec_11 .container {
   padding-left: 2.9375rem;
   padding-right: 1.3125rem;
@@ -817,11 +825,12 @@ p {
   padding-top: 6.15rem;
   padding-bottom: 0.949375rem;
   padding-left: 1.323125rem;
-  font-size: 1.875rem;
-  font-weight: 700;
-  line-height: 2.375rem;
   text-align: left;
   color: #2159a6;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 0.8125rem;
+  letter-spacing: 0.04744035005569458rem;
 }
 
 .sec_11 .slide_text {
@@ -835,11 +844,15 @@ p {
 }
 .sec_11 .sec_title {
   letter-spacing: initial;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.875rem;
   text-align: left;
 }
 .sec_11 .row {
   border-radius: 1.42375rem;
-  box-shadow: 0rem 0.118125rem 0.23125rem 0rem #00000024;
+  /* box-shadow: 0rem 0.118125rem 0.23125rem 0rem #00000024; */
+  filter: drop-shadow(0rem 0.118125rem 0.23125rem 0rem #00000024);
 }
 
 .sec_11 .arrow_container {
@@ -873,9 +886,9 @@ p {
 }
 .sec_11 .img_container {
   padding-top: 0.8125rem;
-  padding-right: 3.4375rem;
+  /* padding-right: 3.4375rem;
   padding-bottom: 3.1875rem;
-  padding-left: 5.8125rem;
+  padding-left: 5.8125rem; */
 }
 /* sec_11_second slider  */
 /* .sec_12 last sec */
@@ -883,6 +896,7 @@ p {
   min-height: 30.4375rem;
   margin-bottom: 7.75rem;
   background-image: url("/images/home/last_sec_bg.png");
+  background-repeat: no-repeat;
 }
 .sec_12 .sec_title {
   font-size: 1.875rem;
@@ -997,6 +1011,27 @@ html {
   .sec_4 {
     min-height: 26.75rem;
   }
+  .sec_11 .d_md_flex {
+    display: flex;
+    align-items: center;
+  }
+  .sec_11 .slide_text{
+    padding-right: 1rem;
+    padding-bottom: 3.8125rem;
+
+  }
+  .sec_11 .img_container{
+    padding-right: 1rem;
+  }
+  .sec_10 .card_text{
+    text-align: center;
+    padding: 2rem;
+
+  }
+  .sec_10 .first_card {
+    padding: 1rem 1rem 2rem 2rem;
+
+  }
 }
 
 /* Media Query for Large Mobile Screen */
@@ -1073,6 +1108,26 @@ html {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
+  .sec_11 .sec_name {
+    padding-top: 2.15rem;
+
+  }
+
+
+
+  .sec_10 .card_text{
+    text-align: center;
+    padding: 2rem;
+
+  }
+
+  .sec_10 .first_card {
+    padding: 1rem 1rem 2rem 2rem;
+
+  }
+
+
 }
 
 /* Media Query for Medium Mobile Screen */
@@ -1182,6 +1237,16 @@ html {
     left: 71%;
     transform: initial;
   }
+  .sec_10 .card_text{
+    text-align: center;
+    padding: 2rem;
+  }
+
+
+
+
+
+
 }
 
 /* Media Query for Small Mobile Screen */
@@ -1193,4 +1258,3 @@ html {
     border: 5px solid orange;
   }
 }
-
