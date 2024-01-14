@@ -791,7 +791,6 @@ p {
   padding-top: 0.458125rem;
   padding-bottom: 0.125rem;
   max-height: 106px;
-
 }
 .sec_10 .card_text {
   font-size: 1.3125rem;
@@ -979,10 +978,7 @@ html {
 /* Media Query for Tablet Screen */
 @media (max-width: 1024px) {
   html {
-    font-size: 14px; /* Adjust font size for tablets (e.g., iPad) */
-  }
-  body {
-    border: 5px solid red;
+    font-size: 14px;
   }
 
   .hero_sec {
@@ -1015,32 +1011,26 @@ html {
     display: flex;
     align-items: center;
   }
-  .sec_11 .slide_text{
+  .sec_11 .slide_text {
     padding-right: 1rem;
     padding-bottom: 3.8125rem;
-
   }
-  .sec_11 .img_container{
+  .sec_11 .img_container {
     padding-right: 1rem;
   }
-  .sec_10 .card_text{
+  .sec_10 .card_text {
     text-align: center;
     padding: 2rem;
-
   }
   .sec_10 .first_card {
     padding: 1rem 1rem 2rem 2rem;
-
   }
 }
 
 /* Media Query for Large Mobile Screen */
 @media (max-width: 768px) {
   html {
-    font-size: 13px; /* Adjust font size for large mobile screens (e.g., iPhone 6/7/8 Plus) */
-  }
-  body {
-    border: 5px solid green;
+    font-size: 13px;
   }
 
   .sec_8 .container {
@@ -1111,32 +1101,22 @@ html {
 
   .sec_11 .sec_name {
     padding-top: 2.15rem;
-
   }
 
-
-
-  .sec_10 .card_text{
+  .sec_10 .card_text {
     text-align: center;
     padding: 2rem;
-
   }
 
   .sec_10 .first_card {
     padding: 1rem 1rem 2rem 2rem;
-
   }
-
-
 }
 
 /* Media Query for Medium Mobile Screen */
 @media (max-width: 425px) {
   html {
-    font-size: 12px; /* Adjust font size for medium mobile screens (e.g., iPhone 6/7/8) */
-  }
-  body {
-    border: 5px solid blue;
+    font-size: 12px;
   }
 
   .hero_sec .col-md-5 {
@@ -1237,24 +1217,32 @@ html {
     left: 71%;
     transform: initial;
   }
-  .sec_10 .card_text{
+  .sec_10 .card_text {
     text-align: center;
     padding: 2rem;
   }
+  .sec_9 .client_logo_container {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
 
+  .sec_9 .tab_text {
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
+  .sec_9 .increament_type {
+    padding-bottom: 1rem;
+  }
 
-
-
-
-
+  .sec_12,
+  .sec_6 {
+    background-repeat: repeat;
+  }
 }
 
 /* Media Query for Small Mobile Screen */
 @media (max-width: 375px) {
   html {
-    font-size: 11px; /* Adjust font size for small mobile screens (e.g., iPhone 5/SE) */
-  }
-  body {
-    border: 5px solid orange;
+    font-size: 11px;
   }
 }
