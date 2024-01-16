@@ -1,0 +1,44 @@
+{% extends "templates/web.html" %} {% block page_content %}
+
+<!-- sec_1 -->
+
+<section class="sec_1">
+  <div class="hero_container">
+    <h3 class="hero_subtitle">AI for the Department of Defense</h3>
+    <h1 class="hero_title">
+      Optimize Fleet Readiness with AI-Driven Event Prediction
+    </h1>
+    <p class="hero_text">
+      With Tagup, defense decision makers can fully access, leverage, and
+      utilize asset data for AI-based decision support to optimize inventory,
+      forecast sustainment costs, and predict asset maintenance and risk failure
+      to improve life cycle management.
+    </p>
+    <div>
+      <a href="" class="btn btn_contact">Contact us</a>
+    </div>
+  </div>
+</section>
+<!-- sec_1 -->
+<!-- sec_2 -->
+<section class="sec_2">
+  <h2 class="sec_title">Mobilize Your Fleet With Confidence</h2>
+  <p class="sec_subtitle">
+    AI tools from Tagup enable the war fighter to understand failure risk across
+    each asset in their organic equipment set, providing AI-based decision
+    support to help improve readiness posture, forecast sustainment needs, and
+    optimize mission success with advanced asset health, maintenance, and supply
+    models.
+  </p>
+</section>
+<!-- sec_2 -->
+{% include 'eden_app/www/modules_sec.html' %}
+{% include 'eden_app/www/featured_news_sec.html' %}
+{% include 'eden_app/www/customer_stories_sec.html' %}
+<div class="mt_63 mb_31">
+  {% include 'eden_app/www/our_workshops_sec.html' %}
+</div>
+{% include 'eden_app/www/get_started_last_sec.html' %}
+
+
+{% endblock %}

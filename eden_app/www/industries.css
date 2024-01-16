@@ -1,0 +1,105 @@
+/* sec_1 */
+.sec_1 {
+  min-height: 495px;
+  background-image: url("/images/industries/sec1_bg.png");
+  background-repeat: no-repeat;
+}
+.sec_1 .hero_container {
+  max-width: 597px;
+  padding-top: 56.5px;
+  padding-left: 123px;
+  padding-bottom: 86px;
+}
+.sec_1 .hero_subtitle {
+  color: #aad4f7;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 36px */
+  letter-spacing: -0.36px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sec_1 .hero_title {
+  color: #f4f6f7;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%; /* 34.5px */
+  letter-spacing: -0.6px;
+  margin-top: 0;
+}
+
+.sec_1 .hero_text {
+  color: rgba(244, 246, 247, 0.85);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  letter-spacing: -0.27px;
+}
+.sec_1 .btn_contact {
+  border-radius: 4px;
+  background: #2589ad;
+  color: #f4f6f7;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  padding: 17px 52px 19px 60px;
+  width: 206px;
+  height: 58px;
+}
+/* sec_1 */
+/* sec_2 */
+.sec_2 {
+  min-height: 242px;
+}
+.sec_2 .sec_title {
+  color: #2159a6;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 72px; /* 240% */
+  letter-spacing: -0.45px;
+  margin: 0;
+  padding-top: 31px;
+}
+
+.sec_2 .sec_subtitle {
+  color: #1e1e1e;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  letter-spacing: -0.27px;
+  max-width: 52%;
+  margin: auto;
+}
+/* sec_2 */
+.mt_63 {
+  margin-top: 63px;
+}
+.mb_31 {
+  margin-bottom: 31px;
+}
+
+/* =======================media query ============================================ */
+
+@media (max-width: 425px) {
+  .sec_1 .hero_container {
+    padding-right: 2rem;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+  }
+  .sec_2 .sec_title {
+    line-height: 50px;
+  }
+  .sec_2 .sec_subtitle {
+    max-width: 80%;
+  }
+}
