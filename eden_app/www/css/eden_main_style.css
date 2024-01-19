@@ -6,7 +6,9 @@
   font-family: Monument;
 }
 /* ------------------------navbar */
-
+.navbar {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
 .navbar-expand-lg .navbar-nav .nav-link {
   color: black;
   font-size: 1rem;
