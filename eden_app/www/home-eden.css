@@ -971,17 +971,8 @@ p {
 
 /* =======================media query ============================================ */
 
-/* Default Font Size for PC Screen */
-html {
-  font-size: 16px; /* Set the base font size for PC */
-}
-
 /* Media Query for Tablet Screen */
 @media (max-width: 1024px) {
-  html {
-    font-size: 14px;
-  }
-
   .hero_sec {
     height: 65vh;
   }
@@ -1030,10 +1021,6 @@ html {
 
 /* Media Query for Large Mobile Screen */
 @media (max-width: 768px) {
-  html {
-    font-size: 13px;
-  }
-
   .sec_8 .container {
     padding-left: initial;
     padding-right: initial;
@@ -1116,10 +1103,6 @@ html {
 
 /* Media Query for Medium Mobile Screen */
 @media (max-width: 425px) {
-  html {
-    font-size: 12px;
-  }
-
   .hero_sec .col-md-5 {
     display: none;
   }
@@ -1238,12 +1221,5 @@ html {
   .sec_12,
   .sec_6 {
     background-repeat: repeat;
-  }
-}
-
-/* Media Query for Small Mobile Screen */
-@media (max-width: 375px) {
-  html {
-    font-size: 11px;
   }
 }

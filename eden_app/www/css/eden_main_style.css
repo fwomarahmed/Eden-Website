@@ -7,7 +7,7 @@
 }
 /* ------------------------navbar */
 .navbar {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   color: black;
@@ -217,13 +217,15 @@ footer .pt_26 {
 /* =======================media query ============================================ */
 
 /* Default Font Size for PC Screen */
-html {
-  font-size: 1rem;
+/* Default Font Size for PC Screen */
+body {
+  font-size: 16px; /* Set the base font size for PC */
 }
+
 /* Media Query for pc Screen */
 @media (max-width: 1306px) {
-  html {
-    font-size: 0.9375rem;
+  body {
+    font-size: 15px !important;
   }
 
   .footer .container {
@@ -259,8 +261,9 @@ html {
 
 /* Media Query for Tablet Screen */
 @media (max-width: 1024px) {
-  html {
-    font-size: 0.875rem;
+  html,
+  body {
+    font-size: 14px !important;
   }
 }
 @media (max-width: 900px) {
@@ -274,8 +277,9 @@ html {
 }
 /* Media Query for Large Mobile Screen */
 @media (max-width: 768px) {
-  html {
-    font-size: 0.8125rem;
+  html,
+  body {
+    font-size: 13px !important;
   }
 
   .navbar .mr_100 {
@@ -306,8 +310,9 @@ html {
 }
 /* Media Query for Medium Mobile Screen */
 @media (max-width: 425px) {
-  html {
-    font-size: 0.75rem;
+  html,
+  body {
+    font-size: 12px !important;
   }
 
   footer .first_col {
@@ -337,14 +342,16 @@ html {
 
 /* Media Query for Small Mobile Screen */
 @media (max-width: 375px) {
-  html {
-    font-size: 0.6875rem;
+  html,
+  body {
+    font-size: 11px !important;
   }
 }
 
 /* Media Query for Extra Small Mobile Screen */
 @media (max-width: 320px) {
-  html {
-    font-size: 0.625rem;
+  html,
+  body {
+    font-size: 10px !important;
   }
 }

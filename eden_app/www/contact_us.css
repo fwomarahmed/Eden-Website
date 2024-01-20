@@ -1,0 +1,63 @@
+h1 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 36px;
+  padding-bottom: 7px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.sec_subtitle {
+  color: #1e1e1e;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 33px;
+}
+
+.contact_info_container {
+  background-image: url("/images/contact/contact_sec_bg.png");
+  background-repeat: no-repeat;
+  min-height: 525px;
+  min-width: 491px;
+  margin-bottom: 4rem;
+  background-size: cover;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.contact_info_container h4 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 45px;
+}
+.contact_info_container .links,
+.contact_info_container span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 25px;
+  max-width: 288px;
+}
+.mb_50 {
+  margin-bottom: 50px;
+}
+.social_icon_container {
+  display: flex;
+  padding-left: 13px;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
