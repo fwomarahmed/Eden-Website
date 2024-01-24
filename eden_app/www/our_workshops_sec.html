@@ -8,20 +8,24 @@
       Don’t miss out on any upcoming events by the team behind ERPNext!
     </h4>
     <div class="row">
+      {% for workshop in workshops %}
+      <div class="workshop">
+          <!-- <h3>{{ workshop.name }}</h3>
+          <p>{{ workshop.description }}</p> -->
+
       <div class="col-md-4 pl-0">
         <div class="card_container">
           <div class="image_container">
             <img
               class="about_sec_img"
-              src="/images/home/workshop_1.png"
+              src="{{ workshop.workshop_image }}"
               alt="workshop event image"
             />
-            <span class="badge badge_notify">Upcoming</span>
+            <span class="badge badge_notify">{{ workshop.workshop_status }}</span>
           </div>
-          <h5 class="card_title">Eden Local - Cairo 2024</h5>
+          <h5 class="card_title"> {{ workshop.workshop_title }} </h5>
           <p class="card_subtitle">
-            This February 2024 , Frappe will join Aakvatech Limited & VV System
-            Developer Limited to meet and connect with the
+            {{ workshop.workshop_subtitle }}
           </p>
           <div>
             <img
@@ -29,7 +33,7 @@
               src="/images/home/tinme_icon.svg"
               alt="tinme_icon"
             />
-            <span class="icon_text"> Date: February 8, 2024</span>
+            <span class="icon_text"> {{ workshop.workshop_date }}</span>
           </div>
           <div class="">
             <img
@@ -37,15 +41,18 @@
               src="/images/home/calendar_icon.svg"
               alt="calendar_icon"
             />
-            <span class="icon_text">Time: 3:30 PM EAT - 9:30 PM EAT</span>
+            <span class="icon_text">{{ workshop.workshop_time }}</span>
           </div>
           <div class="btn_container">
             <a class="btn btn_reginster" href="">Register here !</a>
           </div>
         </div>
       </div>
+      </div>
+  {% endfor %}
 
-      <div class="col-md-4">
+
+      <!-- <div class="col-md-4">
         <div class="card_container">
           <div class="image_container">
             <img
@@ -80,8 +87,8 @@
             <a class="btn btn_reginster" href="">Register here !</a>
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
+      </div> -->
+      <!-- <div class="col-md-4">
         <div class="card_container">
           <div class="image_container">
             <img
@@ -116,7 +123,7 @@
             <a class="btn btn_reginster" href="">Register here !</a>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>

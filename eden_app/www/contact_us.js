@@ -10,13 +10,48 @@ $(document).ready(function () {
 
         if (validateForm()) {
             console.log('Form is valid. Submitting...');
-            // Uncomment the line below to submit the form
-            // $('form')[0].submit();
+
+
+            var formData = {
+                'name': $('#first_name_id').val().trim(),
+                'company': $('#company_id').val().trim(),
+                'email': $('#email_id').val().trim(),
+                'phone_no': $('#phone_id').val().trim(),
+                'subject': getSelectedCheckboxValue('subject'),
+                'msg': $('#textarea_input').val().trim()
+            };
+            console.log(formData);
+
+            // Make an API request to create a new communication entry
+
+            frappe.call({
+                method: "contact_us.create_contact_us_document",
+                type: "POST",
+                args: {
+                    data: JSON.stringify(formData)
+                    // Add other fields as needed
+                },
+                callback: function (response) {
+                    if (!response.exc) {
+                        console.log('Form submitted successfully:', response.message);
+                        // Optionally, you can redirect the user or perform other actions
+                    } else {
+                        console.log('Error submitting form:', response.exc);
+                    }
+                }
+            });
+
+
         } else {
             console.log('Form is not valid. Please check your inputs.');
         }
     });
 
+
+    function getSelectedCheckboxValue(fieldName) {
+        var selectedCheckbox = $('input[name="' + fieldName + '"]:checked');
+        return selectedCheckbox.length > 0 ? selectedCheckbox.val() : null;
+    }
     function validateForm() {
         var isValid = true;
 
