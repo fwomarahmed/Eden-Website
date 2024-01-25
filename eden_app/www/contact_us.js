@@ -1,40 +1,43 @@
-$(document).ready(function () {
-    $('input[type="checkbox"]').on('change', function () {
-        $('input[name="' + this.name + '"]').not(this).prop('checked', false);
-    });
-});
-console.log("s");
+
 $(document).ready(function () {
     $('form').submit(function (event) {
         event.preventDefault();
 
         if (validateForm()) {
             console.log('Form is valid. Submitting...');
-
-
-            var formData = {
-                'name': $('#first_name_id').val().trim(),
-                'company': $('#company_id').val().trim(),
-                'email': $('#email_id').val().trim(),
-                'phone_no': $('#phone_id').val().trim(),
-                'subject': getSelectedCheckboxValue('subject'),
-                'msg': $('#textarea_input').val().trim()
-            };
-            console.log(formData);
-
-            // Make an API request to create a new communication entry
-
             frappe.call({
-                method: "contact_us.create_contact_us_document",
+                method: "eden_app.contact_us.create_contact_us_document",
                 type: "POST",
                 args: {
-                    data: JSON.stringify(formData)
+                    name: $('#first_name_id').val().trim(),
+                    company: $('#company_id').val().trim(),
+                    email: $('#email_id').val().trim(),
+                    phone_no: $('#phone_id').val().trim(),
+                    subject: getSelectedCheckboxValue('subject'),  // Correct spelling
+                    msg: $('#textarea_input').val().trim()
                     // Add other fields as needed
                 },
                 callback: function (response) {
                     if (!response.exc) {
                         console.log('Form submitted successfully:', response.message);
                         // Optionally, you can redirect the user or perform other actions
+                        // Display SweetAlert pop-up
+                        Swal.fire({
+                            title: 'Thank You!',
+                            text: 'Your message has been submitted successfully.',
+                            icon: 'success',
+                            showConfirmButton: false,
+                            timer: 3000 // Set the timer for the pop-up to automatically close after 3 seconds
+                        });
+                        // swal({
+                        //     title: "شكرا علي تواصلك معنا",
+                        //     text: "تم ارسال رسالتك  وسنقوم بمراجعتها والرد عليها في اسرع وقت ",
+                        //     icon: "success",
+                        //     button: false,
+                        //     timer: 5000,
+                        //   });
+                        //   $(":input").val("");
+
                     } else {
                         console.log('Error submitting form:', response.exc);
                     }
@@ -99,15 +102,31 @@ $(document).ready(function () {
         }
     }
 
+
     function validateCheckbox(fieldName) {
         var isChecked = $('input[name="' + fieldName + '"]:checked').length > 0;
+        var subjectInput = $('#' + fieldName + '_input');
+
         if (!isChecked) {
             displayErrorMessage(fieldName + '_input', 'Please select at least one option');
+            subjectInput.addClass('is-invalid');
         } else {
             hideErrorMessage(fieldName + '_input');
+            subjectInput.removeClass('is-invalid');
         }
+
         return isChecked;
     }
+
+    // function validateCheckbox(fieldName) {
+    //     var isChecked = $('input[name="' + fieldName + '"]:checked').length > 0;
+    //     if (!isChecked) {
+    //         displayErrorMessage(fieldName + '_input', 'Please select at least one option');
+    //     } else {
+    //         hideErrorMessage(fieldName + '_input');
+    //     }
+    //     return isChecked;
+    // }
 
     function displayErrorMessage(fieldId, message) {
         $('#' + fieldId).addClass('is-invalid');
@@ -118,4 +137,11 @@ $(document).ready(function () {
         $('#' + fieldId).removeClass('is-invalid');
         $('#' + fieldId + '_error').hide();
     }
+});
+
+
+$(document).ready(function () {
+    $('input[type="checkbox"]').on('change', function () {
+        $('input[name="' + this.name + '"]').not(this).prop('checked', false);
+    });
 });

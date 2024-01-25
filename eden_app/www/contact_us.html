@@ -101,6 +101,7 @@
                     type="number"
                     class="form-control input_class"
                     id="phone_id"
+                    min="0"
                   />
                   <small
                     id="phone_id_error"
@@ -177,11 +178,13 @@
               </div>
               <!-- Add this block to display error for checkboxes -->
               <div class="col-12">
-                <small
+                <!-- <small
                   id="subject_error"
                   class="form-text text-danger error_msg"
                   >error msg</small
-                >
+                > -->
+                <small id="subject_input_error" class="form-text text-danger error_msg"></small>
+
               </div>
             </div>
 
@@ -195,7 +198,7 @@
               <small
                 id="textarea_input_error"
                 class="form-text text-danger error_msg"
-                >error msg</small
+                ></small
               >
             </div>
             <div class="btn_container">
@@ -209,3 +212,13 @@
 </section>
 
 {% endblock %}
+
+
+
+
+
+
+
+
+<!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>

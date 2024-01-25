@@ -41,7 +41,7 @@ web_include_js = "/js/eden_main.js"
 # ----------
 
 # application home page (will override Website Settings)
-home_page = "home-eden"
+home_page = "home-eden.html"
 
 # website user home page (by Role)
 # role_home_page = {

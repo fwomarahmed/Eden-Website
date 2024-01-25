@@ -28,6 +28,8 @@ h1 {
   background-size: cover;
   padding-top: 40px;
   padding-left: 40px;
+  border-radius: 15px;
+
 }
 .contact_info_container h4 {
   color: #fff;
@@ -150,4 +152,14 @@ h1 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+/* =======================media query ============================================ */
+
+
+@media (max-width: 1024px) {
+
+  .contact_info_container  {
+    min-width: auto;
+  }
 }

@@ -116,7 +116,10 @@ p {
 }
 
 .sec_2 .sec_subtitle {
+  max-width: 70%;
+  margin: auto;
   margin-bottom: 2.6875rem;
+
 }
 
 .sec_2 .card_container {
