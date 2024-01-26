@@ -1,6 +1,5 @@
-
 <head>
-  <link rel="stylesheet" href="home-eden.css" />
+  <link rel="stylesheet" href="home_page.css" />
 </head>
 <section class="sec_3">
   <div class="container">
@@ -9,121 +8,47 @@
       Don’t miss out on any upcoming events by the team behind ERPNext!
     </h4>
     <div class="row">
-      <div>
-        <h1>hello h1</h1>
-        <div>before loop</div>
-        <div>
-        </div>
-      </div>
-
-        {% for workshop in workshops %}
-          <div class="workshop">
-            <h5 class="card_title">{{ workshop.workshop_title }}</h5>
-            <p class="card_subtitle">{{ workshop.workshop_subtitle }}</p>
-          </div>
-        {% endfor %}
-      
-
-
-      <!-- {% for workshop in workshops %}
+      {% for workshop in workshops %}
       <div class="workshop">
         <div class="col-md-4 pl-0">
           <div class="card_container">
-            <img class="about_sec_img" src="{{ workshop.workshop_image }}" alt="workshop event image" />
-            <span class="badge badge_notify">{{ workshop.workshop_status }}</span>
+            <img
+              class="about_sec_img"
+              src="{{ workshop.workshop_image }}"
+              alt="workshop event image"
+            />
+            <span class="badge badge_notify"
+              >{{ workshop.workshop_status }}</span
+            >
             <h5 class="card_title">{{ workshop.workshop_title }}</h5>
             <p class="card_subtitle">{{ workshop.workshop_subtitle }}</p>
             <div>
-              <img class="icon_container" src="/images/home/tinme_icon.svg" alt="tinme_icon" />
+              <img
+                class="icon_container"
+                src="/images/home/tinme_icon.svg"
+                alt="tinme_icon"
+              />
               <span class="icon_text"> {{ workshop.workshop_date }}</span>
             </div>
             <div class="">
-              <img class="icon_container" src="/images/home/calendar_icon.svg" alt="calendar_icon" />
+              <img
+                class="icon_container"
+                src="/images/home/calendar_icon.svg"
+                alt="calendar_icon"
+              />
               <span class="icon_text">{{ workshop.workshop_time }}</span>
             </div>
             <div class="btn_container">
-              <a class="btn btn_reginster" href="{{ workshop.workshop_url_link }}">Register here!</a>
+              <a
+                class="btn btn_reginster"
+                href="{{ workshop.workshop_url_link }}"
+                >Register here!</a
+              >
             </div>
           </div>
         </div>
       </div>
-    {% endfor %} -->
-  </div>
-
-      <!-- <div class="col-md-4">
-        <div class="card_container">
-          <div class="image_container">
-            <img
-              class="about_sec_img"
-              src="/images/home/workshop_2.png"
-              alt="workshop event image"
-            />
-            <span class="badge badge_notify">Upcoming</span>
-          </div>
-          <h5 class="card_title">Eden Local - Cairo 2024</h5>
-          <p class="card_subtitle">
-            This February 2024 , Frappe will join Aakvatech Limited & VV System
-            Developer Limited to meet and connect with the
-          </p>
-          <div>
-            <img
-              class="icon_container"
-              src="/images/home/tinme_icon.svg"
-              alt="tinme_icon"
-            />
-            <span class="icon_text"> Date: February 8, 2024</span>
-          </div>
-          <div class="">
-            <img
-              class="icon_container"
-              src="/images/home/calendar_icon.svg"
-              alt="calendar_icon"
-            />
-            <span class="icon_text">Time: 3:30 PM EAT - 9:30 PM EAT</span>
-          </div>
-          <div class="btn_container">
-            <a class="btn btn_reginster" href="">Register here !</a>
-          </div>
-        </div>
-      </div> -->
-      <!-- <div class="col-md-4">
-        <div class="card_container">
-          <div class="image_container">
-            <img
-              class="about_sec_img"
-              src="/images/home/workshop_2.png"
-              alt="workshop event image"
-            />
-            <span class="badge badge_notify">Upcoming</span>
-          </div>
-          <h5 class="card_title">Eden Local - Cairo 2024</h5>
-          <p class="card_subtitle">
-            This February 2024 , Frappe will join Aakvatech Limited & VV System
-            Developer Limited to meet and connect with the
-          </p>
-          <div>
-            <img
-              class="icon_container"
-              src="/images/home/tinme_icon.svg"
-              alt="tinme_icon"
-            />
-            <span class="icon_text"> Date: February 8, 2024</span>
-          </div>
-          <div class="">
-            <img
-              class="icon_container"
-              src="/images/home/calendar_icon.svg"
-              alt="calendar_icon"
-            />
-            <span class="icon_text">Time: 3:30 PM EAT - 9:30 PM EAT</span>
-          </div>
-          <div class="btn_container">
-            <a class="btn btn_reginster" href="">Register here !</a>
-          </div>
-        </div>
-      </div> -->
+      {% endfor %}
     </div>
   </div>
 </section>
-
-

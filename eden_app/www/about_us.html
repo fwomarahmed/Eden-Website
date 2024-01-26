@@ -1,5 +1,22 @@
 {% extends "templates/web.html" %} {% block page_content %}
 
+
+<section class="sec_3">
+  <div class="container">
+    <h6 class="sec_name">OUR WORKSHOPS</h6>
+    <h4 class="sec_title">
+      Don’t miss out on any upcoming events by the team behind ERPNext!
+    </h4>
+    <div class="row">
+      {% for workshop in workshops %}
+      <div class="workshop">
+        <h5 class="card_title">{{ workshop.workshop_title }}</h5>
+        <p class="card_subtitle">{{ workshop.workshop_subtitle }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 <section class="sec_1">
   <h2>About Us</h2>
   <div class="container">
@@ -113,54 +130,65 @@
   </div>
 </section>
 
-
 <section class="sec_4">
   <h2>Digital Transformation Approach</h2>
-
 </section>
 <section class="sec_5">
-<div class="container">
-  <div class="row">
-    <div class="col-md-3 col_1">
-      <div class="card_container">
-        <div class="num">1</div>
-        <div class="img_container">  <img src="/images/about/img_1.png" alt="img_1"> </div>
-        <h6 class="card_title">  Crypto Community</h6>
-        <p class="card_subtitle">Unprecedented access to investment projects in the real economy globally</p>
-      
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col_1">
+        <div class="card_container">
+          <div class="num">1</div>
+          <div class="img_container">
+            <img src="/images/about/img_1.png" alt="img_1" />
+          </div>
+          <h6 class="card_title">Crypto Community</h6>
+          <p class="card_subtitle">
+            Unprecedented access to investment projects in the real economy
+            globally
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card_container">
-        <div class="num">2</div>
-        <div class="img_container">  <img src="./images/about/img_2.png" alt="img_2"> </div>
-        <h6 class="card_title">  Asset Owners</h6>
-        <p class="card_subtitle">Proprietary tools for borderless capital raise</p>
-      
+      <div class="col-md-3">
+        <div class="card_container">
+          <div class="num">2</div>
+          <div class="img_container">
+            <img src="./images/about/img_2.png" alt="img_2" />
+          </div>
+          <h6 class="card_title">Asset Owners</h6>
+          <p class="card_subtitle">
+            Proprietary tools for borderless capital raise
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="col-md-3 col_3">
-      <div class="card_container">
-        <div class="num">3</div>
-        <div class="img_container">  <img src="/images/about/img_3.png" alt="img_1"> </div>
-        <h6 class="card_title">  Registration</h6>
-        <p class="card_subtitle">Absolute data security and maximum transparency of all blockchain-based transactions</p>
-      
+      <div class="col-md-3 col_3">
+        <div class="card_container">
+          <div class="num">3</div>
+          <div class="img_container">
+            <img src="/images/about/img_3.png" alt="img_1" />
+          </div>
+          <h6 class="card_title">Registration</h6>
+          <p class="card_subtitle">
+            Absolute data security and maximum transparency of all
+            blockchain-based transactions
+          </p>
+        </div>
       </div>
-    </div>
 
-
-    <div class="col-md-3">
-      <div class="card_container">
-        <div class="num">4</div>
-        <div class="img_container">  <img src="/images/about/img_4.png" alt="img_1"> </div>
-        <h6 class="card_title">  Create Solutions</h6>
-        <p class="card_subtitle">Decentralized community-ran platform for fundraising</p>
-      
+      <div class="col-md-3">
+        <div class="card_container">
+          <div class="num">4</div>
+          <div class="img_container">
+            <img src="/images/about/img_4.png" alt="img_1" />
+          </div>
+          <h6 class="card_title">Create Solutions</h6>
+          <p class="card_subtitle">
+            Decentralized community-ran platform for fundraising
+          </p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </section>
 {% endblock %}

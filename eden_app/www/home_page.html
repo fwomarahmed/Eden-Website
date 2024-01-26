@@ -6,6 +6,7 @@
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   />
 </head>
+
 <section class="hero_sec">
   <div class="row">
     <div class="col-md-7">
@@ -77,12 +78,7 @@
   </div>
 </section>
 <!-- code for workshops here -->
-
-<div>
-  new
-
-  <div>{{ workshops }} {{ workshop }}</div>
-</div>
+{% include 'eden_app/www/our_workshops_sec.html' %}
 
 <section class="sec_4">
   <div class="container-fluid">
@@ -483,7 +479,7 @@
                 <p class="slide_text mb_11">
                   Collaborate effectively, mitigate risks, and stand out in your
                   field.
-                </p>  
+                </p>
                 <div class="mb_18">
                   <a href="" class="btn_read_more">Read more</a>
                   <span class="arrow_container">
@@ -607,14 +603,14 @@
 
 <!-- sec_11 last sec -->
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
 <script>
-  const swiper = new Swiper(".swiper", {
-    // Navigation arrows
-    navigation: {
-      nextEl: ".custom-button-next",
-      prevEl: ".custom-button-prev",
-    },
-  });
+  // const swiper = new Swiper(".swiper", {
+  //   // Navigation arrows
+  //   navigation: {
+  //     nextEl: ".custom-button-next",
+  //     prevEl: ".custom-button-prev",
+  //   },
+  // });
 </script>
 {% endblock %}
