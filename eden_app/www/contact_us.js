@@ -20,21 +20,17 @@ $(document).ready(function () {
                     if (!response.exc) {
                         console.log('Form submitted successfully:', response.message);
                         // Display SweetAlert pop-up
-                        // Swal.fire({
-                        //     title: 'Thank You!',
-                        //     text: 'Your message has been submitted successfully.',
-                        //     icon: 'success',
-                        //     showConfirmButton: false,
-                        //     timer: 3000 // Set the timer for the pop-up to automatically close after 3 seconds
-                        // });
-                        // swal({
-                        //     title: "شكرا علي تواصلك معنا",
-                        //     text: "تم ارسال رسالتك  وسنقوم بمراجعتها والرد عليها في اسرع وقت ",
-                        //     icon: "success",
-                        //     button: false,
-                        //     timer: 5000,
-                        //   });
-                        //   $(":input").val("");
+                        Swal.fire({
+                            title: 'Thank You!',
+                            text: 'Your message has been submitted successfully.',
+                            icon: 'success',
+                            showConfirmButton: false,
+                            timer: 5000 // Set the timer for the pop-up to automatically close after 3 seconds
+                        });
+
+                        $(":input").val("");
+                        $('input[type="checkbox"]').prop('checked', false);
+
 
                     } else {
                         console.log('Error submitting form:', response.exc);
