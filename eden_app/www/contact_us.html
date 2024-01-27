@@ -10,19 +10,19 @@
           <h4>Contact Information</h4>
           <div class="mb_50">
             <img src="/images/contact/phone-call.svg" alt="phone-call icon" />
-            <a class="links" href="tel:+1012 3456 789">+1012 3456 789</a>
+            <a class="links" href="tel:+201069658518">+20 106 965 8518</a>
           </div>
           <div class="mb_50">
             <img src="/images/contact/mail.svg" alt="mail icon" />
-            <a class="links" href="mailto:demo@gmail.com">demo@gmail.com</a>
+            <a class="links" href="mailto:operations@edenmea.com"
+              >operations@edenmea.com</a
+            >
           </div>
+          <button onclick="testSweetAlert()">Test SweetAlert</button>
 
           <div class="mb_50 d-flex">
             <img src="/images/contact/location.svg" alt="location icon" />
-            <span
-              >132 Dartmouth Street Boston, Massachusetts 02156 United
-              States</span
-            >
+            <span>9121 Lower Merag,Zahraa Maadi, Cairo, Egypt. States</span>
           </div>
 
           <div class="social_icon_container">
@@ -176,15 +176,11 @@
                   >
                 </div>
               </div>
-              <!-- Add this block to display error for checkboxes -->
               <div class="col-12">
-                <!-- <small
-                  id="subject_error"
+                <small
+                  id="subject_input_error"
                   class="form-text text-danger error_msg"
-                  >error msg</small
-                > -->
-                <small id="subject_input_error" class="form-text text-danger error_msg"></small>
-
+                ></small>
               </div>
             </div>
 
@@ -198,8 +194,7 @@
               <small
                 id="textarea_input_error"
                 class="form-text text-danger error_msg"
-                ></small
-              >
+              ></small>
             </div>
             <div class="btn_container">
               <button type="submit" class="btn btn_send">Send Message</button>
@@ -213,12 +208,17 @@
 
 {% endblock %}
 
+<!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
 
+<script>
+  // const Swal = require('sweetalert2')
 
-
-
-
-
-
-<!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  function testSweetAlert() {
+    console.log("aaaaaaaa");
+    // Swal.fire({
+    //     title: 'Test Alert',
+    //     text: 'This is a test alert!',
+    //     icon: 'info'
+    // });
+  }
+</script>

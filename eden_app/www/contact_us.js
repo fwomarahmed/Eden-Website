@@ -15,20 +15,18 @@ $(document).ready(function () {
                     phone_no: $('#phone_id').val().trim(),
                     subject: getSelectedCheckboxValue('subject'),  // Correct spelling
                     msg: $('#textarea_input').val().trim()
-                    // Add other fields as needed
                 },
                 callback: function (response) {
                     if (!response.exc) {
                         console.log('Form submitted successfully:', response.message);
-                        // Optionally, you can redirect the user or perform other actions
                         // Display SweetAlert pop-up
-                        Swal.fire({
-                            title: 'Thank You!',
-                            text: 'Your message has been submitted successfully.',
-                            icon: 'success',
-                            showConfirmButton: false,
-                            timer: 3000 // Set the timer for the pop-up to automatically close after 3 seconds
-                        });
+                        // Swal.fire({
+                        //     title: 'Thank You!',
+                        //     text: 'Your message has been submitted successfully.',
+                        //     icon: 'success',
+                        //     showConfirmButton: false,
+                        //     timer: 3000 // Set the timer for the pop-up to automatically close after 3 seconds
+                        // });
                         // swal({
                         //     title: "شكرا علي تواصلك معنا",
                         //     text: "تم ارسال رسالتك  وسنقوم بمراجعتها والرد عليها في اسرع وقت ",

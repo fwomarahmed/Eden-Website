@@ -119,7 +119,6 @@ p {
   max-width: 70%;
   margin: auto;
   margin-bottom: 2.6875rem;
-
 }
 
 .sec_2 .card_container {
@@ -155,7 +154,7 @@ p {
 .sec_2 .card_subtitle {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 2.1875rem;
+  line-height: 1.7rem;
   letter-spacing: -0.04625rem;
   color: #1e1e1e;
   padding-left: 1.375rem;
@@ -326,6 +325,7 @@ p {
   text-align: left;
   color: #ddf3ff;
   max-width: 92%;
+  padding-bottom: 1rem;
 }
 
 .sec_4 .accordion_link {
@@ -396,7 +396,7 @@ p {
   line-height: 1.375rem;
   text-align: left;
   color: black;
-  max-width: 22.9375rem;
+  max-width: 30rem;
   margin-bottom: 1.25rem;
 }
 
@@ -460,6 +460,7 @@ p {
   background-image: url("/images/home/sec_6_bg.png");
   min-height: 32.4375rem;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sec_6 .img_container {
@@ -511,6 +512,7 @@ p {
   min-height: 38.5625rem;
   background-image: url("/images/home/sec_7_bg.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sec_7 .container {
@@ -602,6 +604,7 @@ p {
 .sec_7 .img_container {
   padding-top: 0.6375rem;
   text-align: center;
+  padding-left: 6rem;
 }
 
 /* sec_7 */
@@ -803,7 +806,7 @@ p {
   line-height: 1.75rem;
   text-align: left;
   color: black;
-  padding: 0.4375rem 3.3125rem 2.9375rem 5.8125rem;
+  padding: 0.4375rem 0.3125rem 2.9375rem 3.8125rem;
 }
 
 .sec_10 .container {
@@ -901,6 +904,7 @@ p {
   margin-bottom: 7.75rem;
   background-image: url("/images/home/last_sec_bg.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .sec_12 .sec_title {
   font-size: 1.875rem;
