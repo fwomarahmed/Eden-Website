@@ -24,7 +24,6 @@ p {
   font-weight: 500;
   font-size: 2.375rem;
   line-height: 3.375rem;
-  /* letter-spacing: -0.1125rem; */
   color: white;
   margin-bottom: 1.9375rem;
   margin-top: 0;
@@ -36,7 +35,6 @@ p {
   font-weight: 600;
   font-size: 0.781875rem;
   line-height: 1.146875rem;
-  /* letter-spacing: -0.015625rem; */
   color: #ffffff;
   width: 7.3125rem;
   height: 2.75rem;
@@ -50,7 +48,6 @@ p {
   font-weight: 600;
   font-size: 0.781875rem;
   line-height: 1.146875rem;
-  /* letter-spacing: -0.015625rem; */
   color: #ffffff;
   width: auto;
   height: 2.75rem;
@@ -86,7 +83,6 @@ p {
   font-size: 1rem;
   font-weight: 700;
   line-height: 0.9375rem;
-  letter-spacing: 0.05625rem;
   text-align: center;
   color: #2589ad;
 }
@@ -99,15 +95,14 @@ p {
   font-size: 1.875rem;
   font-weight: 700;
   line-height: 2.8125rem;
-  letter-spacing: -0.1125rem;
   text-align: center;
+  letter-spacing: initial !important;
 }
 
 .sec_subtitle {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4375rem;
-  letter-spacing: -0.028125rem;
   text-align: center;
 }
 
@@ -146,7 +141,6 @@ p {
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 2.1875rem;
-  letter-spacing: -0.04625rem;
   color: #2159a6;
   padding-left: 1.375rem;
 }
@@ -155,7 +149,6 @@ p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.7rem;
-  letter-spacing: -0.04625rem;
   color: #1e1e1e;
   padding-left: 1.375rem;
   padding-right: 1.125rem;
@@ -191,6 +184,9 @@ p {
 .sec_3 .about_sec_img {
   /* border-radius: 0.65625rem; */
   border-radius: 0.65625rem 0.65625rem 0rem 0rem;
+  height: 206px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .sec_3 .card_title {
@@ -201,7 +197,6 @@ p {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.4375rem;
-  letter-spacing: 0.01875rem;
   text-align: left;
 }
 
@@ -209,7 +204,6 @@ p {
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 1.25rem;
-  letter-spacing: 0.01875rem;
   text-align: left;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -226,7 +220,7 @@ p {
   font-size: 0.75rem;
   font-weight: 700;
   line-height: 1.25rem;
-  letter-spacing: 0.01875rem;
+
   text-align: left;
 }
 
@@ -247,7 +241,6 @@ p {
   font-size: 0.6875rem;
   font-weight: 500;
   line-height: 1.0625rem;
-  letter-spacing: 0.0125rem;
   text-align: center;
   padding: 0.3125rem 2.9375rem;
 }
@@ -260,7 +253,6 @@ p {
   font-size: 0.625rem;
   font-weight: 700;
   line-height: 0.875rem;
-  letter-spacing: 0.01875rem;
   color: #525252;
   padding: 0.149375rem 0.335625rem;
   position: absolute;
@@ -283,7 +275,6 @@ p {
 .sec_4 .sec_name {
   color: #bce7ff;
   line-height: 0.76625rem;
-  letter-spacing: 0.04625rem;
   padding-top: 1.5rem;
   padding-bottom: 0.1875rem;
   text-align: left;
@@ -292,7 +283,6 @@ p {
 .sec_4 .sec_title {
   color: #ffffff;
   line-height: 2.29875rem;
-  letter-spacing: initial;
   padding-bottom: 1.080625rem;
   text-align: left;
 }
@@ -307,7 +297,6 @@ p {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.3125rem;
-  letter-spacing: -0.025rem;
   text-align: left;
   color: #aad4f7;
   padding: 0;
@@ -315,13 +304,13 @@ p {
   padding-top: 1rem;
   padding-bottom: 1.625rem;
   width: 100%;
+  display: flex;
 }
 
 .sec_4 .accordion_body {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.125rem;
-  letter-spacing: -0.01875rem;
   text-align: left;
   color: #ddf3ff;
   max-width: 92%;
@@ -333,7 +322,6 @@ p {
   font-size: 0.6875rem;
   font-weight: 600;
   line-height: 0.9375rem;
-  letter-spacing: -0.01875rem;
   text-align: left;
   color: #aad4f7;
 }
@@ -378,7 +366,6 @@ p {
 
 .sec_5 .sec_name {
   line-height: 0.75rem;
-  letter-spacing: 0.04375rem;
   text-align: left;
   padding-top: 1.1875rem;
   padding-bottom: 0.28125rem;
@@ -408,7 +395,6 @@ p {
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.1875rem;
-  letter-spacing: -0.025rem;
   text-align: left;
   color: #17253d;
   margin-right: 0.3375rem;
@@ -525,7 +511,6 @@ p {
 .sec_7 .sec_title {
   line-height: 3rem;
   text-align: center;
-  letter-spacing: initial;
 }
 
 .sec_7 .sec_subtitle {
@@ -652,7 +637,6 @@ p {
   font-size: 1rem;
   font-weight: 700;
   line-height: 0.8125rem;
-  letter-spacing: initial;
   text-align: left;
   color: #2589ad;
   padding-bottom: 0.6875rem;
@@ -662,7 +646,6 @@ p {
   font-size: 1.875rem;
   font-weight: 700;
   line-height: 2.375rem;
-  letter-spacing: initial;
   text-align: left;
   color: black;
 }
@@ -680,7 +663,6 @@ p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.1875rem;
-  letter-spacing: initial;
   text-align: left;
   padding-bottom: 3.3125rem;
   padding-left: 1.1875rem;
@@ -837,7 +819,6 @@ p {
   font-size: 1rem;
   font-weight: 700;
   line-height: 0.8125rem;
-  letter-spacing: 0.04744035005569458rem;
 }
 
 .sec_11 .slide_text {
@@ -850,7 +831,6 @@ p {
   padding-bottom: 5.8125rem;
 }
 .sec_11 .sec_title {
-  letter-spacing: initial;
   font-size: 1.875rem;
   font-weight: 700;
   line-height: 2.875rem;
@@ -874,6 +854,8 @@ p {
 .sec_11 .read_blog_link {
   padding-left: 1.323125rem;
   padding-bottom: 1.403125rem;
+  display: flex;
+  align-items: center;
 }
 .sec_11 .btn_read_more {
   font-size: 0.8125rem;
@@ -881,6 +863,7 @@ p {
   line-height: 1.1875rem;
   text-align: left;
   color: black;
+  margin-left: 0.5rem;
 }
 .sec_11 .nav_btns_wrapper {
   display: flex;
@@ -914,13 +897,13 @@ p {
   padding-top: 3.4375rem;
   padding-bottom: 2.6875rem;
   color: white;
-  letter-spacing: initial;
 }
 .sec_12 .card_container {
   background-color: #fff;
   border-radius: 1.34625rem;
   box-shadow: 0rem 0.10625rem 0.21875rem 0rem #00000024;
   max-width: 24.079375rem;
+  min-height: 299px;
 }
 
 .sec_12 .icon_text_cont {
@@ -978,7 +961,12 @@ p {
 /* .sec_12 last sec */
 
 /* =======================media query ============================================ */
-
+@media (max-width: 1270px) {
+  .sec_12 .col-md-4 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
 /* Media Query for Tablet Screen */
 @media (max-width: 1024px) {
   .hero_sec {

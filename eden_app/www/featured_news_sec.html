@@ -15,17 +15,16 @@
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
+
+        {% if blogs %} {% for blog in blogs %}
+
         <div class="swiper-slide">
           <div class="row">
             <div class="col-md-6">
               <div class="slide_container">
-                <h6 class="sec_name">Lighten your workload with AI</h6>
+                <h6 class="sec_name">{{blog.blog_title}}</h6>
 
-                <p class="slide_text">
-                  Learn how new Microsoft Copilot features help you speed
-                  through tasks, quickly summarize content, and build momentum
-                  to take on your day.
-                </p>
+                <p class="slide_text">{{blog.blog_subtitle}}</p>
 
                 <div class="read_blog_link">
                   <span class="arrow_container">
@@ -35,89 +34,28 @@
                       alt="icon_arrow"
                     />
                   </span>
-                  <a href="" class="btn_read_more">Read the blog</a>
+                  <a href="{{blog.blog_url_link}}" class="btn_read_more"
+                    >Read the blog</a
+                  >
                 </div>
               </div>
             </div>
             <div class="col-md-6 d_md_flex">
               <div class="img_container">
+                {% if blog.blog_image %}
+                <img src="{{blog.blog_image}}" alt="featured_news_2nd_slider" />
+                {% else %}
                 <img
                   src="/images/home/featured_news_2nd_slider.png"
                   alt="featured_news_2nd_slider"
                 />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="slide_container">
-                <h6 class="sec_name">Lighten your workload with AI</h6>
-
-                <p class="slide_text">
-                  Learn how new Microsoft Copilot features help you speed
-                  through tasks, quickly summarize content, and build momentum
-                  to take on your day.
-                </p>
-
-                <div class="read_blog_link">
-                  <span class="arrow_container">
-                    <img
-                      src="/images/home/rigt_arrow_Icon.svg"
-                      class="icon_arrow"
-                      alt="icon_arrow"
-                    />
-                  </span>
-                  <a href="" class="btn_read_more">Read the blog</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="img_container">
-                <img
-                  src="/images/home/featured_news_2nd_slider.png"
-                  alt="featured_news_2nd_slider"
-                />
+                {% endif %}
               </div>
             </div>
           </div>
         </div>
 
-        <div class="swiper-slide">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="slide_container">
-                <h6 class="sec_name">Lighten your workload with AI</h6>
-
-                <p class="slide_text">
-                  Learn how new Microsoft Copilot features help you speed
-                  through tasks, quickly summarize content, and build momentum
-                  to take on your day.
-                </p>
-
-                <div class="read_blog_link">
-                  <span class="arrow_container">
-                    <img
-                      src="/images/home/rigt_arrow_Icon.svg"
-                      class="icon_arrow"
-                      alt="icon_arrow"
-                    />
-                  </span>
-                  <a href="" class="btn_read_more">Read the blog</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="img_container">
-                <img
-                  src="/images/home/featured_news_2nd_slider.png"
-                  alt="featured_news_2nd_slider"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+        {% endfor %} {% endif %}
       </div>
       <!-- If we need navigation buttons -->
       <div class="nav_btns_wrapper">

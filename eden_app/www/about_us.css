@@ -14,7 +14,7 @@
 }
 .sec_1 h1 {
   color: #fff;
-  font-size: 1.5870625rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 2.2924375rem;
   padding-top: 2.3125rem;
@@ -101,8 +101,8 @@
 /* sec_4 */
 /* sec_5 */
 .sec_5 {
-  padding-top: 7.8125rem;
-  padding-bottom: 2.125rem;
+  padding-top: 8.8125rem !important;
+  padding-bottom: 6.125rem !important;
 }
 .sec_5 .card_container {
   border-radius: 0.75rem;

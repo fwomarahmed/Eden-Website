@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* sec_1p */
 .sec_1p h1 {
   color: #2159a6;
@@ -63,6 +67,7 @@
   box-shadow: 0rem 0.15448112785816193rem 0.30896225571632385rem 0rem #00000024;
   border-radius: 1.85375rem;
   max-width: 349px;
+  min-height: 371px;
 }
 .sec_2p .image_container {
   padding: 7.212px 10.194px 0.02px 10px;
@@ -198,21 +203,7 @@
   display: flex;
   margin-bottom: 58px;
 }
-.sec_4p .badge_item {
-  border-radius: 200px;
-  background: #2589ad;
-  height: 40px;
-  padding: 9px 23.678px 10px 24px;
-  color: #fff;
-  text-align: center;
-  font-family: "Segoe UI";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 24px; /* 150% */
-  margin-right: 8px;
-  display: inline-block;
-}
+
 .sec_4p .accordion_title {
   color: #0e1726;
   font-size: 20px;
@@ -230,7 +221,6 @@
   border-bottom: 1px solid #bdc5d2;
   margin-left: 48px;
   max-width: 365.53px;
-
 }
 
 .sec_4p .accordion_body {
@@ -245,6 +235,29 @@
 .sec_4p .img_container {
   padding-top: 33px;
 }
+.sec_4p .nav-link {
+  border-radius: 200px;
+  background: rgba(30, 48, 79, 0.1);
+  color: #17253d;
+  border: none;
+
+  height: 40px;
+  padding: 9px 23.678px 10px 24px;
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  margin-right: 8px;
+  display: inline-block;
+}
+.sec_4p .nav-pills .nav-link.active,
+.sec_4p .nav-pills .show > .nav-link {
+  background: #2589ad;
+  color: #fff;
+}
+
 /* sec_4p */
 /* sec_5p */
 .sec_5p {
@@ -280,6 +293,8 @@
   min-height: 404px;
   text-align: center;
   margin-top: 35px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .sec_6p h6 {
   color: #aad4f7;
@@ -326,3 +341,29 @@
 .sec_10 {
   margin-top: 35px !important;
 }
+
+/* scroll spy sec */
+.scroll_spy .navbar {
+  height: 50px;
+  padding: 0;
+}
+
+.scroll_spy {
+  position: sticky !important;
+  top: 0;
+  z-index: 99;
+}
+.scroll_spy .nav-link {
+  font-weight: 700;
+  font-size: 14px;
+  color: #17253d;
+}
+.scroll_spy .nav-pills .nav-link.active,
+.scroll_spy .nav-pills .show > .nav-link {
+  border-bottom: 3px solid #2159a6;
+}
+.scroll_spy .container {
+  padding-left: 0;
+}
+
+/* scroll spy sec */

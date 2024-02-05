@@ -1,6 +1,4 @@
-<head>
-  <link rel="stylesheet" href="home_page.css" />
-</head>
+
 <section class="sec_3">
   <div class="container">
     <h6 class="sec_name">OUR WORKSHOPS</h6>
@@ -9,42 +7,47 @@
     </h4>
     <div class="row">
       {% if workshops %} {% for workshop in workshops %}
-          <div class="col-md-4 pl-0">
-            <div class="card_container">
-              <img
-                class="about_sec_img"
-                src="{{ workshop.workshop_image }}"
-                alt="workshop event image"
-              />
-              <span class="badge badge_notify"
-                >{{ workshop.workshop_status }}</span
-              >
-              <h5 class="card_title">{{ workshop.workshop_title }}</h5>
-              <p class="card_subtitle">{{ workshop.workshop_subtitle }}</p>
-              <div>
-                <img
-                  class="icon_container"
-                  src="/images/home/tinme_icon.svg"
-                  alt="tinme_icon"
-                />
-                <span class="icon_text"> {{ workshop.workshop_date }}</span>
-              </div>
-              <div class="">
-                <img
-                  class="icon_container"
-                  src="/images/home/calendar_icon.svg"
-                  alt="calendar_icon"
-                />
-                <span class="icon_text">{{ workshop.workshop_time }}</span>
-              </div>
-              <div class="btn_container">
-                <a
-                  class="btn btn_reginster"
-                  href="{{ workshop.workshop_url_link }}"
-                  >Register here!</a
-                >
-              </div>
-            </div>
+      <div class="col-md-4 pl-0 pb-6">
+        <div class="card_container">
+          {% if workshop.workshop_image %}
+          <img
+            class="about_sec_img"
+            src="{{ workshop.workshop_image }}"
+            alt="workshop event image"
+          />
+          {% else %}
+          <img
+            class="about_sec_img"
+            src="/images/home/workshop_1.png"
+            alt="workshop event image"
+          />
+          {% endif %}
+
+          <span class="badge badge_notify">{{ workshop.workshop_status }}</span>
+          <h5 class="card_title">{{ workshop.workshop_title }}</h5>
+          <p class="card_subtitle">{{ workshop.workshop_subtitle }}</p>
+          <div>
+            <img
+              class="icon_container"
+              src="/images/home/tinme_icon.svg"
+              alt="tinme_icon"
+            />
+            <span class="icon_text"> {{ workshop.workshop_date }}</span>
+          </div>
+          <div class="">
+            <img
+              class="icon_container"
+              src="/images/home/calendar_icon.svg"
+              alt="calendar_icon"
+            />
+            <span class="icon_text">{{ workshop.workshop_time }}</span>
+          </div>
+          <div class="btn_container">
+            <a class="btn btn_reginster" href="{{ workshop.workshop_url_link }}"
+              >Register here!</a
+            >
+          </div>
+        </div>
       </div>
       {% endfor %} {% else %}
       <h4 class="sec_title">No Available Workshops</h4>

@@ -29,54 +29,8 @@
   </div>
 </section>
 
-<section class="sec_2">
-  <h6 class="sec_name">About EDEN</h6>
-  <h4 class="sec_title">Shape the future of your business</h4>
-  <p class="sec_subtitle">
-    Unify your workforce, streamline processes, and integrate data seamlessly
-    throughout your organization, laying the foundation for outstanding customer
-    interactions and enhanced operational flexibility.
-  </p>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 d-flex justify-center">
-        <div class="card_container">
-          <div class="image_container">
-            <img
-              class="about_sec_img"
-              src="/images/home/about_img_1.png"
-              alt=""
-            />
-          </div>
-          <h5 class="card_title">Cloud-based ERP</h5>
-          <p class="card_subtitle">
-            Maximize efficiency and streamline operations with Eden ERP,
-            unlocking new levels of productivity for your business and dive into
-            data with advanced analytics that turn insights into action,
-            propelling your business forward.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-6 d-flex justify-center">
-        <div class="card_container">
-          <div class="image_container">
-            <img
-              class="about_sec_img"
-              src="/images/home/about_img_2.png"
-              alt=""
-            />
-          </div>
-          <h5 class="card_title">Full-fledged LMS</h5>
-          <p class="card_subtitle">
-            Transform the way you educate and train with our cutting-edge
-            Learning Management System. Dive into a world of interactive
-            learning, performance tracking, and unparalleled user engagement.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include 'eden_app/www/about_eden_sec.html' %}
+
 <!-- code for workshops here -->
 {% include 'eden_app/www/our_workshops_sec.html' %}
 
@@ -99,13 +53,13 @@
                     aria-controls="collapseOne"
                   >
                     Improved Efficiency Optimizing Business Processes:
+                    <span>
+                      <img
+                        src="/images/home/arrow_Vector.svg"
+                        alt="icon collapse"
+                      />
+                    </span>
                   </button>
-                  <span>
-                    <img
-                      src="/images/home/arrow_Vector.svg"
-                      alt="icon collapse"
-                    />
-                  </span>
                 </h5>
               </div>
               <div
@@ -133,13 +87,13 @@
                     aria-controls="collapseTwo"
                   >
                     Using Data for Smart Choices Make Informed Decisions:
+                    <span>
+                      <img
+                        src="/images/home/arrow_Vector.svg"
+                        alt="icon collapse"
+                      />
+                    </span>
                   </button>
-                  <span>
-                    <img
-                      src="/images/home/arrow_Vector.svg"
-                      alt="icon collapse"
-                    />
-                  </span>
                 </h5>
               </div>
               <div
@@ -166,13 +120,13 @@
                     aria-controls="collapseThree"
                   >
                     Cost Efficiency and Savings Spending Wisely:
+                    <span>
+                      <img
+                        src="/images/home/arrow_Vector.svg"
+                        alt="icon collapse"
+                      />
+                    </span>
                   </button>
-                  <span>
-                    <img
-                      src="/images/home/arrow_Vector.svg"
-                      alt="icon collapse"
-                    />
-                  </span>
                 </h5>
               </div>
               <div
@@ -192,7 +146,7 @@
 
             <div class="accordion_container">
               <div class="" id="headingFour">
-                <h5 class="mb-0 center_icon">
+                <h5 class="mb-0">
                   <button
                     class="btn btn-link collapsed accordion_title"
                     data-toggle="collapse"
@@ -201,14 +155,14 @@
                     aria-controls="collapseFour"
                   >
                     Improved Performance of your team With digital
-                    transformation,
+                    transformation:
+                    <span>
+                      <img
+                        src="/images/home/arrow_Vector.svg"
+                        alt="icon collapse"
+                      />
+                    </span>
                   </button>
-                  <span>
-                    <img
-                      src="/images/home/arrow_Vector.svg"
-                      alt="icon collapse"
-                    />
-                  </span>
                 </h5>
               </div>
               <div
@@ -236,13 +190,13 @@
                     aria-controls="collapseFive"
                   >
                     Ready business for growth Ready for What's Next:
+                    <span>
+                      <img
+                        src="/images/home/arrow_Vector.svg"
+                        alt="icon collapse"
+                      />
+                    </span>
                   </button>
-                  <span>
-                    <img
-                      src="/images/home/arrow_Vector.svg"
-                      alt="icon collapse"
-                    />
-                  </span>
                 </h5>
               </div>
               <div
@@ -273,300 +227,10 @@
   </div>
 </section>
 
-<section class="sec_5">
-  <div class="container">
-    <div class="swiper">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="img_container">
-                <img src="/images/home/sloution_img.png" alt="sloution_img" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="slide_container">
-                <h6 class="sec_name">Solutions</h6>
-                <h4 class="sec_title">Retail</h4>
-                <p class="slide_text">
-                  Enhance shopping experiences on all platforms
-                </p>
-                <p class="slide_text mb_11">
-                  and make your supply chain more sustainable with our retail
-                  solutions in the cloud
-                </p>
-                <div class="mb_18">
-                  <a href="" class="btn_read_more">Read more</a>
-                  <span class="arrow_container">
-                    <img
-                      src="/images/home/rigt_arrow_Icon.svg"
-                      class="icon_arrow"
-                      alt="icon_arrow"
-                    />
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="img_container">
-                <img src="/images/home/sloution_img.png" alt="sloution_img" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="slide_container">
-                <h6 class="sec_name">Solutions</h6>
-                <h4 class="sec_title">Healthcare</h4>
-                <p class="slide_text">
-                  Embrace patient-centered care and achieve significantly
-                  improved outcomes
-                </p>
-                <p class="slide_text mb_11">
-                  by leveraging our data-driven, smart healthcare solutions.
-                </p>
-                <div class="mb_18">
-                  <a href="" class="btn_read_more">Read more</a>
-                  <span class="arrow_container">
-                    <img
-                      src="/images/home/rigt_arrow_Icon.svg"
-                      class="icon_arrow"
-                      alt="icon_arrow"
-                    />
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="img_container">
-                <img src="/images/home/sloution_img.png" alt="sloution_img" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="slide_container">
-                <h6 class="sec_name">Solutions</h6>
-                <h4 class="sec_title">Manufacturing</h4>
-                <p class="slide_text">
-                  Streamline manufacturing, enhance efficiency,
-                </p>
-                <p class="slide_text mb_11">
-                  and minimize costs with our integrated supply chain management
-                  for optimal manufacturing processes and increased gross
-                  profit.
-                </p>
-                <div class="mb_18">
-                  <a href="" class="btn_read_more">Read more</a>
-                  <span class="arrow_container">
-                    <img
-                      src="/images/home/rigt_arrow_Icon.svg"
-                      class="icon_arrow"
-                      alt="icon_arrow"
-                    />
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+{% include 'eden_app/www/solutions_sec.html' %}
 
-        <div class="swiper-slide">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="img_container">
-                <img src="/images/home/sloution_img.png" alt="sloution_img" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="slide_container">
-                <h6 class="sec_name">Solutions</h6>
-                <h4 class="sec_title">Education</h4>
-                <p class="slide_text">
-                  To educate the next generation effectively
-                </p>
-                <p class="slide_text mb_11">
-                  and remain at the cutting edge of educational advancements,
-                  schools and universities are incorporating intelligent
-                  education software solutions.
-                </p>
-                <div class="mb_18">
-                  <a href="" class="btn_read_more">Read more</a>
-                  <span class="arrow_container">
-                    <img
-                      src="/images/home/rigt_arrow_Icon.svg"
-                      class="icon_arrow"
-                      alt="icon_arrow"
-                    />
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+{% include 'eden_app/www/funded_program_sec.html' %}
 
-        <div class="swiper-slide">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="img_container">
-                <img src="/images/home/sloution_img.png" alt="sloution_img" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="slide_container">
-                <h6 class="sec_name">Solutions</h6>
-                <h4 class="sec_title">Hospitality</h4>
-                <p class="slide_text">
-                  Elevate guest experiences and streamline operations with our
-                  innovative hospitality management solutions,including seamless
-                  payment gateways
-                </p>
-                <p class="slide_text mb_11">
-                  , advanced reservation systems and setting new standards for
-                  service quality.
-                </p>
-                <div class="mb_18">
-                  <a href="" class="btn_read_more">Read more</a>
-                  <span class="arrow_container">
-                    <img
-                      src="/images/home/rigt_arrow_Icon.svg"
-                      class="icon_arrow"
-                      alt="icon_arrow"
-                    />
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="img_container">
-                <img src="/images/home/sloution_img.png" alt="sloution_img" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="slide_container">
-                <h6 class="sec_name">Solutions</h6>
-                <h4 class="sec_title">Engineering & Construction</h4>
-                <p class="slide_text">
-                  Empower Your Projects: Create larger, more sustainable
-                  ventures with our services management software.
-                </p>
-                <p class="slide_text mb_11">
-                  Collaborate effectively, mitigate risks, and stand out in your
-                  field.
-                </p>
-                <div class="mb_18">
-                  <a href="" class="btn_read_more">Read more</a>
-                  <span class="arrow_container">
-                    <img
-                      src="/images/home/rigt_arrow_Icon.svg"
-                      class="icon_arrow"
-                      alt="icon_arrow"
-                    />
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- If we need navigation buttons -->
-      <div class="nav_btns_wrapper">
-        <div class="custom-button-prev">
-          <img src="/images/home/prev_btn_slider.svg" alt="Previous" />
-        </div>
-        <div class="custom-button-next">
-          <img src="/images/home/next_btn_slider.svg" alt="Next" />
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="sec_6">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="img_container">
-          <img src="/images/home/sec_6_img.png" alt="sec_6_img" />
-        </div>
-      </div>
-      <div class="col-md-6 d-flex align-center">
-        <div class="text_container">
-          <h3>Enjoy the benefits of having Our funded program</h3>
-          <div class="mb_15">
-            <span class="pr_6">
-              <img
-                src="/images/home/icon_check_true.svg"
-                alt="icon_check_true"
-              />
-            </span>
-            <span class="text_card"
-              >Boost your SME with Eden's 60% cost coverage on tech
-              products.</span
-            >
-          </div>
-
-          <div class="mb_15">
-            <span class="pr_6">
-              <img
-                src="/images/home/icon_check_true.svg"
-                alt="icon_check_true"
-              />
-            </span>
-            <span class="text_card"
-              >Access tailored tech solutions to accelerate your business
-              growth.</span
-            >
-          </div>
-          <div class="mb_15">
-            <span class="pr_6">
-              <img
-                src="/images/home/icon_check_true.svg"
-                alt="icon_check_true"
-              />
-            </span>
-            <span class="text_card"
-              >Stay competitive without breaking your budget.</span
-            >
-          </div>
-          <div class="mb_15">
-            <span class="pr_6">
-              <img
-                src="/images/home/icon_check_true.svg"
-                alt="icon_check_true"
-              />
-            </span>
-            <span class="text_card"
-              >Simplify tech management, we've got you covered.</span
-            >
-          </div>
-          <div class="mb_15">
-            <span class="pr_6">
-              <img
-                src="/images/home/icon_check_true.svg"
-                alt="icon_check_true"
-              />
-            </span>
-            <span class="text_card"
-              >Give your whole team a consistent experience</span
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 <!-- first sec wit tabs -->
 
 {% include 'eden_app/www/modules_sec.html' %}
