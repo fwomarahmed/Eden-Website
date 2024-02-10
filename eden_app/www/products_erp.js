@@ -8,21 +8,22 @@ $(document).ready(function () {
 
     // Add 'active' class on click
     $("#navbar-example2 .nav-link").click(function () {
-        console.log("clc");
+        // console.log("clc");
         $("#navbar-example2 .nav-link").removeClass("active");
         $(this).addClass("active");
     });
 
     // Get the exact position offset of the navbar
-    var navbarOffset = $("#navbar-example2").offset().top;
-
+    var navbarOffset = $("#navbar-example2").position().top;
     // Change background color and text color when scrolling
     $(window).scroll(function () {
+        console.log(navbarOffset , "navbarOffset");
+
         var scrollPos = $(document).scrollTop();
-        console.log(scrollPos);
+        console.log(scrollPos, "scrollPos");
         var navbar = $("#navbar-example2");
 
-        if (scrollPos > navbarOffset) {
+        if (scrollPos >= navbarOffset) {
             console.log("scrollPos exceeds navbar offset");
             navbar.addClass("bg_blue_scroll");
         } else {

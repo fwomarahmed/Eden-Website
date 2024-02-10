@@ -1,10 +1,10 @@
 h1 {
   color: #000;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
   line-height: normal;
-  padding-top: 36px;
-  padding-bottom: 7px;
+  padding-top: 2.25rem;
+  padding-bottom: 0.4375rem;
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
@@ -13,51 +13,50 @@ h1 {
 .sec_subtitle {
   color: #1e1e1e;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 33px;
+  margin-bottom: 2.0625rem;
 }
 
 .contact_info_container {
   background-image: url("/images/contact/contact_sec_bg.png");
   background-repeat: no-repeat;
-  min-height: 525px;
-  min-width: 491px;
+  min-height: 32.8125rem;
+  min-width: 30.6875rem;
   margin-bottom: 4rem;
   background-size: cover;
-  padding-top: 40px;
-  padding-left: 40px;
-  border-radius: 15px;
-
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
+  border-radius: 0.9375rem;
 }
 .contact_info_container h4 {
   color: #fff;
   font-family: Poppins;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   margin-top: 0;
-  margin-bottom: 45px;
+  margin-bottom: 2.8125rem;
 }
 .contact_info_container .links,
 .contact_info_container span {
   color: #fff;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-left: 25px;
-  max-width: 288px;
+  padding-left: 1.5625rem;
+  max-width: 18rem;
 }
 .mb_50 {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 .social_icon_container {
   display: flex;
-  padding-left: 13px;
+  padding-left: 0.8125rem;
   justify-content: flex-start;
   align-items: center;
   padding-top: 0;
@@ -65,29 +64,29 @@ h1 {
 }
 
 .form_container {
-  padding-left: 20px;
-  padding-top: 40px;
+  padding-left: 1.25rem;
+  padding-top: 2.5rem;
 }
 .label_class {
   color: #8d8d8d;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 166.667% */
+  line-height: 1.25rem; /* 166.667% */
 }
 .input_class,
 .text_area_class {
   background: transparent;
-  border-bottom: 1px solid #8d8d8d;
+  border-bottom: 0.0625rem solid #8d8d8d;
   border-radius: 0;
   color: #000;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 1.25rem; /* 142.857% */
 }
 .form-group {
-  margin-bottom: 45px;
+  margin-bottom: 2.8125rem;
 }
 .form-control:focus {
   color: #000000;
@@ -98,36 +97,36 @@ h1 {
 }
 .subject_label {
   color: #000;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 20px; /* 142.857% */
-  margin-bottom: 14px;
+  line-height: 1.25rem; /* 142.857% */
+  margin-bottom: 0.875rem;
 }
 
 .form-check-label {
   color: #000;
   font-family: Poppins;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 166.667% */
-  padding-left: 10px;
+  line-height: 1.25rem; /* 166.667% */
+  padding-left: 0.625rem;
 }
 .mb_45 {
-  margin-bottom: 45px;
+  margin-bottom: 2.8125rem;
 }
 .textarea_label {
   color: #8d8d8d;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 166.667% */
-  margin-bottom: 5px;
+  line-height: 1.25rem; /* 166.667% */
+  margin-bottom: 0.3125rem;
 }
 #textarea_input {
-  height: 36px;
-  /* margin-bottom: 45px; */
+  height: 2.25rem;
+  /* margin-bottom: 2.8125rem; */
   padding: 0;
 }
 
@@ -136,19 +135,19 @@ h1 {
 }
 .btn_container {
   text-align: end;
-  margin-top: 45px;
+  margin-top: 2.8125rem;
   padding-bottom: 2rem;
 }
 
 .btn_send {
-  padding: 15px 48px;
-  border-radius: 5px;
+  padding: 0.9375rem 3rem;
+  border-radius: 0.3125rem;
   background: #2589ad;
-  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0rem 0rem 0.875rem 0rem rgba(0, 0, 0, 0.12);
   color: #fff;
   text-align: center;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -156,10 +155,8 @@ h1 {
 
 /* =======================media query ============================================ */
 
-
-@media (max-width: 1024px) {
-
-  .contact_info_container  {
+@media (max-width: 64rem) {
+  .contact_info_container {
     min-width: auto;
   }
 }

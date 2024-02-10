@@ -1095,6 +1095,10 @@ p {
   .sec_10 .first_card {
     padding: 1rem 1rem 2rem 2rem;
   }
+  .sec_12 .card_container {
+    max-width: initial;
+    min-height: 264px;
+}
 }
 
 /* Media Query for Medium Mobile Screen */
@@ -1218,4 +1222,5 @@ p {
   .sec_6 {
     background-repeat: repeat;
   }
+
 }

@@ -1,95 +1,95 @@
 /* sec_1 */
 .sec_1 {
-  min-height: 495px;
+  min-height: 30.9375rem;
   background-image: url("/images/industries/sec1_bg.png");
   background-repeat: no-repeat;
 }
 .sec_1 .hero_container {
-  max-width: 597px;
-  padding-top: 56.5px;
-  padding-left: 123px;
-  padding-bottom: 86px;
+  max-width: 37.3125rem;
+  padding-top: 3.53125rem;
+  padding-left: 7.6875rem;
+  padding-bottom: 5.375rem;
 }
 .sec_1 .hero_subtitle {
   color: #aad4f7;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 800;
-  line-height: 150%; /* 36px */
-  letter-spacing: -0.36px;
-  padding-bottom: 10px;
+  line-height: 150%; /* 2.25rem */
+  /* letter-spacing: -0.0225rem; */
+  padding-bottom: 0.625rem;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .sec_1 .hero_title {
   color: #f4f6f7;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 115%; /* 34.5px */
-  letter-spacing: -0.6px;
+  line-height: 115%; /* 2.15625rem */
+  /* letter-spacing: -0.0375rem; */
   margin-top: 0;
 }
 
 .sec_1 .hero_text {
   color: rgba(244, 246, 247, 0.85);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 150%; /* 27px */
-  letter-spacing: -0.27px;
+  line-height: 150%; /* 1.6875rem */
+  /* letter-spacing: -0.016875rem; */
 }
 .sec_1 .btn_contact {
-  border-radius: 4px;
+  border-radius: 0.25rem;
   background: #2589ad;
   color: #f4f6f7;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: -0.36px;
-  padding: 17px 52px 19px 60px;
-  width: 206px;
-  height: 58px;
+  /* letter-spacing: -0.0225rem;,. */
+  padding: 1.0625rem 3.25rem 1.1875rem 3.75rem;
+  width: 12.875rem;
+  height: 3.625rem;
 }
 /* sec_1 */
 /* sec_2 */
 .sec_2 {
-  min-height: 242px;
+  min-height: 15.125rem;
 }
 .sec_2 .sec_title {
   color: #2159a6;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
-  line-height: 72px; /* 240% */
-  letter-spacing: -0.45px;
+  line-height: 4.5rem; /* 240% */
+  letter-spacing: -0.028125rem;
   margin: 0;
-  padding-top: 31px;
+  padding-top: 1.9375rem;
 }
 
 .sec_2 .sec_subtitle {
   color: #1e1e1e;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 27px */
-  letter-spacing: -0.27px;
+  line-height: 150%; /* 1.6875rem */
+  letter-spacing: -0.016875rem;
   max-width: 52%;
   margin: auto;
 }
 /* sec_2 */
 .mt_63 {
-  margin-top: 63px;
+  margin-top: 3.9375rem;
 }
 .mb_31 {
-  margin-bottom: 31px;
+  margin-bottom: 1.9375rem;
 }
 
 /* =======================media query ============================================ */
 
-@media (max-width: 425px) {
+@media (max-width: 26.5625rem) {
   .sec_1 .hero_container {
     padding-right: 2rem;
     padding-top: 5rem;
@@ -97,7 +97,7 @@
     padding-bottom: 2rem;
   }
   .sec_2 .sec_title {
-    line-height: 50px;
+    line-height: 3.125rem;
   }
   .sec_2 .sec_subtitle {
     max-width: 80%;
