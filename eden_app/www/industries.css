@@ -1,8 +1,28 @@
 /* sec_1 */
+
+.bg_education {
+  background-image: url("./images/industries/Edcation/hero.png");
+}
+.bg_healthcare {
+  background-image: url("./images/industries/healthcare/hero.png");
+}
+.bg_manufacturing {
+  background-image: url("./images/industries/Manufacturing/hero.png");
+}
+.bg_hospitality {
+  background-image: url("./images/industries/Hospitality/hero.png");
+}
+.bg_retail {
+  background-image: url("./images/industries/Retail/hero.png");
+}
+.bg_services {
+  background-image: url("./images/industries/Services/hero.png");
+}
 .sec_1 {
   min-height: 30.9375rem;
-  background-image: url("/images/industries/sec1_bg.png");
+  /* background-image: url("/images/industries/sec1_bg.png"); */
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .sec_1 .hero_container {
   max-width: 37.3125rem;

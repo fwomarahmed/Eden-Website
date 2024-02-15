@@ -22,6 +22,7 @@ html {
   line-height: 2.2694375rem; /* 201.727% */
   text-transform: uppercase;
   padding-bottom: 6.75rem;
+  text-transform: lowercase;
 }
 .sec_1p .img_container {
   margin-top: 3.8125rem;
@@ -284,7 +285,15 @@ html {
   letter-spacing: 0.02rem;
   padding-bottom: 3rem;
 }
-
+.sec_5p .image_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sec_5p .image_container img {
+  max-width: 180px;
+  margin: 2rem;
+}
 /* sec_5p */
 
 /* sec_6p */
@@ -369,19 +378,16 @@ html {
   /* padding-left: 0; */
 }
 .bg_blue_scroll {
-  background-color: #2589ad;
-  color: white;
+  background-color: white;
+  color: black;
 }
 .bg_blue_scroll .nav-pills .nav-link.active {
-  color: white;
+  /* color: white; */
 }
 
 /* scroll spy sec */
 
 @media (max-width: 768px) {
-  body {
-    border: 0.625rem solid red;
-  }
   .sec_12 .card_container {
     max-width: initial;
     min-height: 264px;
@@ -404,7 +410,9 @@ html {
     margin-bottom: 1rem;
     height: auto;
   }
-  
+  .scroll_spy{
+    display: none;
+  }
 }
 
 @media (max-width: 425px) {

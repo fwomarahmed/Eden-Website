@@ -12,7 +12,7 @@
 }
 .scroll_spy .nav-link {
   font-weight: 700;
-  font-size: 0.875rem;
+  font-size: 0.7rem;
   color: #17253d;
 }
 .scroll_spy .nav-pills .nav-link.active,
@@ -27,11 +27,22 @@
     padding-left: 0;
   } */
 .bg_blue_scroll {
-  background-color: #2589ad;
-  color: white;
+  background-color: white;
+  color: black;
 }
 .bg_blue_scroll .nav-pills .nav-link.active {
-  color: white;
+  color: black;
+}
+.scroll_spy .nav{
+  flex-wrap: nowrap;
 }
 
 /* scroll spy sec */
+
+
+@media (max-width: 768px) {
+
+  .scroll_spy{
+    display: none;
+  }
+}
