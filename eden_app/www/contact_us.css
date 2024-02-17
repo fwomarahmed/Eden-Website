@@ -160,3 +160,10 @@ h1 {
     min-width: auto;
   }
 }
+
+@media (max-width: 1306px) {
+  .contact_info_container {
+    min-width: auto;
+    min-height: 26.8125rem;
+  }
+}

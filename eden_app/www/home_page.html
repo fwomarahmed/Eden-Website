@@ -1,10 +1,10 @@
 {% extends "templates/web.html" %} {% block page_content %}
 
 <head>
-  <link
+  <!-- <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
+  /> -->
 </head>
 
 <section class="hero_sec">
@@ -16,8 +16,8 @@
           Transformation
         </h1>
         <div>
-          <a href="#" class="btn btn_quote">Request a quote </a>
-          <a href="#" class="btn btn_demo">Request a demo </a>
+          <a href="/contact_us" class="btn btn_quote">Request a quote </a>
+          <a href="/contact_us" class="btn btn_demo">Request a demo </a>
         </div>
       </div>
     </div>
@@ -172,7 +172,7 @@
                 data-parent="#accordion"
               >
                 <div class="accordion_body">
-                  you can achieve better performance and have a clearer view of
+                  You can achieve better performance and have a clearer view of
                   your operations. This makes audits smoother and more
                   effective, ensuring your business runs at its best.
                 </div>
@@ -227,9 +227,8 @@
   </div>
 </section>
 
-{% include 'eden_app/www/solutions_sec.html' %}
-
-{% include 'eden_app/www/funded_program_sec.html' %}
+{% include 'eden_app/www/solutions_sec.html' %} {% include
+'eden_app/www/funded_program_sec.html' %}
 
 <!-- first sec wit tabs -->
 
@@ -254,10 +253,9 @@
 
 <!-- sec_11 last sec -->
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
   // const swiper = new Swiper(".swiper", {
-  //   // Navigation arrows
   //   navigation: {
   //     nextEl: ".custom-button-next",
   //     prevEl: ".custom-button-prev",

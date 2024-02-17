@@ -138,14 +138,14 @@ html {
   font-weight: 700;
   line-height: normal;
   padding-bottom: 1.125rem;
-  text-align: center;
+  text-align: left;
 }
 .sec_3p .card_subtitle {
   color: #000;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   line-height: normal;
 }
 .sec_3p .card_container {
@@ -156,14 +156,14 @@ html {
 .sec_3p .card_container2 {
   margin-bottom: 0;
 }
-.sec_3p .left_48 {
+/* .sec_3p .left_48 {
   position: relative;
   left: 3rem;
-}
-.sec_3p .right_35 {
+} */
+/* .sec_3p .right_35 {
   position: relative;
   right: 2.1875rem;
-}
+} */
 .sec_3p .mb_26 {
   margin-bottom: 1.625rem;
 }
@@ -288,10 +288,11 @@ html {
 .sec_5p .image_container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 .sec_5p .image_container img {
-  max-width: 180px;
+  max-width: 6%;
+  height: auto;
   margin: 2rem;
 }
 /* sec_5p */
@@ -332,7 +333,7 @@ html {
   padding-bottom: 1.25rem;
 }
 .sec_6p a {
-  width: 18.8125rem;
+  /* width: 18.8125rem; */
   padding: 0.9375rem 6.50425rem 1.0625rem 6.5625rem;
   border-radius: 0.5rem;
   background: #fff;
@@ -415,19 +416,23 @@ html {
   }
 }
 
+
+
 @media (max-width: 425px) {
   .sec_12 .card_container {
     width: auto;
     height: auto;
     min-width: 351px;
   }
-}
-
-@media (max-width: 425px) {
   .sec_4p #pills-tab {
     flex-wrap: nowrap;
   }
   .sec_4p .nav-link {
     min-height: 8rem;
+  }
+  .sec_4p .nav-link {
+    padding: 9px;
+    min-height: auto;
+
   }
 }

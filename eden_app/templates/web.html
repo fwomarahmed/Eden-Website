@@ -72,5 +72,19 @@ id="page-{{ name or route | e }}" data-path="{{ pathname | e }}"
 	{{ main_content() }}
 </div>
 {% endif %}
-
+<head>
+	<link
+	  rel="stylesheet"
+	  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+	/>
+  </head>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper(".swiper", {
+    navigation: {
+      nextEl: ".custom-button-next",
+      prevEl: ".custom-button-prev",
+    },
+  });
+</script>
 {% endblock %}

@@ -29,7 +29,8 @@ p {
   margin-top: 0;
 }
 
-.hero_sec .btn_quote {
+.hero_sec .btn_quote,
+.btn_quote {
   background-color: #2589ad;
   border-radius: 0.416875rem;
   font-weight: 600;
@@ -591,6 +592,9 @@ p {
   text-align: center;
   padding-left: 6rem;
 }
+.sec_7 .img_container img {
+  width: 100%;
+}
 
 /* sec_7 */
 
@@ -720,7 +724,8 @@ p {
   line-height: 0.875rem;
   text-align: left;
   color: #0e1726;
-  padding: 0.7125rem 3.418125rem 1.04rem 1rem;
+  padding: 1rem;
+  /* padding: 0.7125rem 3.418125rem 1.04rem 1rem; */
   background-color: white;
   box-shadow: 0rem 0.043086081743240356rem 0.08548825234174728rem 0rem #00000024;
 

@@ -18,7 +18,7 @@ app_license = "MIT"
 # include js, css files in header of web template
 # web_include_css = "/assets/alhayani/css/swiper-bundle.css"
 # web_include_js = ["/assets/alhayani/js/swiper-bundle.js"]
-web_include_css = ["/css/eden_main_style.css","/assets/eden_app/css/home_page.css"]
+web_include_css = ["/css/eden_main_style.css", "/assets/eden_app/css/home_page.css"]
 web_include_js = ["/js/eden_main.js"]
 # web_include_css = "/assets/eden_app/css/eden_app.css"
 # web_include_js = "/assets/eden_app/js/eden_app.js"
@@ -38,7 +38,7 @@ web_include_js = ["/js/eden_main.js"]
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
-
+update_website_context = ["eden_app.context.get_context"]
 # Home Pages
 # ----------
 
