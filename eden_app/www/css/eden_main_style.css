@@ -4,6 +4,7 @@
 }
 * {
   font-family: Monument;
+  scroll-behavior: smooth;
 }
 /* ------------------------navbar */
 .navbar {

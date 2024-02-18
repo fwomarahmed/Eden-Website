@@ -20,9 +20,7 @@ html {
   font-style: normal;
   font-weight: 400;
   line-height: 2.2694375rem; /* 201.727% */
-  text-transform: uppercase;
   padding-bottom: 6.75rem;
-  text-transform: lowercase;
 }
 .sec_1p .img_container {
   margin-top: 3.8125rem;
@@ -263,7 +261,7 @@ html {
 /* sec_5p */
 .sec_5p {
   background: #f3f3f3;
-  min-height: 27.75rem;
+  min-height: 21.75rem;
   text-align: center;
 }
 .sec_5p h3 {
@@ -291,9 +289,8 @@ html {
   /* flex-wrap: wrap; */
 }
 .sec_5p .image_container img {
-  max-width: 5%;
-  height: auto;
-  margin: 2rem;
+  max-width: 77px;
+  margin: 0.8rem;
   object-fit: contain;
 }
 /* sec_5p */
@@ -432,5 +429,20 @@ html {
   .sec_4p .nav-link {
     padding: 9px;
     min-height: auto;
+  }
+  .sec_5p .image_container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 375px) {
+  .sec_4p .nav-link {
+    padding: 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  .sec_4p .nav-link {
+    padding: 3px;
   }
 }
