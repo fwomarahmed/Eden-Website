@@ -385,7 +385,7 @@ p {
   text-align: left;
   color: black;
   max-width: 30rem;
-  margin-bottom: 1.25rem;
+  /* margin-bottom: 1.25rem; */
 }
 
 .mb_11 {
@@ -488,6 +488,9 @@ p {
 
 .mb_15 {
   margin-bottom: 0.9375rem;
+}
+.mb_2rem {
+  margin-bottom: 2rem;
 }
 
 /* sec_6 */
@@ -593,7 +596,7 @@ p {
   padding-left: 6rem;
 }
 .sec_7 .img_container img {
-  width: 100%;
+  width: 70%;
 }
 
 /* sec_7 */
@@ -635,6 +638,7 @@ p {
 .sec_8 .logos_container img {
   max-width: 115px;
   margin: 1rem;
+  object-fit: contain;
 }
 /* sec_8 */
 /* .sec_9 */
@@ -905,6 +909,7 @@ p {
   min-width: 582px;
   min-height: 282px;
   object-fit: cover;
+  border-radius: 3%;
 }
 .sec_11 .swiper-slide {
   border-radius: 1.18625rem;

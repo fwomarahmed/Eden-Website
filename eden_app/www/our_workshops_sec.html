@@ -1,9 +1,8 @@
-
 <section class="sec_3">
   <div class="container">
     <h6 class="sec_name">OUR WORKSHOPS</h6>
     <h4 class="sec_title">
-      Don’t miss out on any upcoming events by the team behind ERPNext!
+      Don’t miss out on any upcoming events by the team behind Eden ERP!
     </h4>
     <div class="row">
       {% if workshops %} {% for workshop in workshops %}
@@ -43,7 +42,10 @@
             <span class="icon_text">{{ workshop.workshop_time }}</span>
           </div>
           <div class="btn_container">
-            <a class="btn btn_reginster" href="{{ workshop.workshop_url_link }}"
+            <a
+              href="{{ workshop.workshop_url_link }}"
+              class="btn btn_reginster"
+              target="_blank"
               >Register here!</a
             >
           </div>

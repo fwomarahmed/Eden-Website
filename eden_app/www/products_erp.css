@@ -291,9 +291,10 @@ html {
   /* flex-wrap: wrap; */
 }
 .sec_5p .image_container img {
-  max-width: 6%;
+  max-width: 5%;
   height: auto;
   margin: 2rem;
+  object-fit: contain;
 }
 /* sec_5p */
 
@@ -411,12 +412,10 @@ html {
     margin-bottom: 1rem;
     height: auto;
   }
-  .scroll_spy{
+  .scroll_spy {
     display: none;
   }
 }
-
-
 
 @media (max-width: 425px) {
   .sec_12 .card_container {
@@ -433,6 +432,5 @@ html {
   .sec_4p .nav-link {
     padding: 9px;
     min-height: auto;
-
   }
 }

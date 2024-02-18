@@ -19,7 +19,10 @@
       </div>
       <div class="col-md-6">
         <div class="img_container">
-          <img src="./images/products/LMS/products_lms_hero.png" alt="laptop&mobile" />
+          <img
+            src="./images/products/LMS/products_lms_hero.png"
+            alt="laptop&mobile"
+          />
         </div>
       </div>
     </div>
@@ -46,25 +49,25 @@
         <a class="nav-link" href="#id_sec_4">Integration </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#id_sec_5">Competitive-Edge </a>
+        <a class="nav-link" href="#id_sec_competitive_edge">Competitive-Edge </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#id_sec_6">Pricing</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#id_sec_7">Partners</a>
+        <a class="nav-link" href="#id_sec_partners">Partners</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#id_sec_8">Customers</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#id_sec_9">Blog</a>
+        <a class="nav-link" href="#id_sec_customer_stories">Customers</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#id_sec_10">Next steps </a>
+        <a class="nav-link" href="#id_sec_blogs">Blog</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#id_sec_get_started">Next steps </a>
       </li>
     </ul>
   </div>
@@ -72,7 +75,7 @@
 
 <!-- scroll spy sec -->
 <!-- sec_2 -->
-<section class="sec_2p">
+<section class="sec_2p" id="id_sec_1">
   <h6>ABOUT EDEN</h6>
   <h3>Shape the future of your business</h3>
   <p class="title_p">
@@ -130,9 +133,8 @@
 
 <!-- sec_2 -->
 <!-- sec_3p -->
-<section class="sec_3p">
-  <h3>One Solution for All Your Needs
-  </h3>
+<section class="sec_3p" id="id_sec_2">
+  <h3>One Solution for All Your Needs</h3>
   <p class="sec_subtitle">Key benefits</p>
   <div class="container">
     <div class="row">
@@ -152,7 +154,9 @@
           </p>
         </div>
       </div>
-      <div class="col-md-4 text-center d-flex justify-content-center align-center flex-column">
+      <div
+        class="col-md-4 text-center d-flex justify-content-center align-center flex-column"
+      >
         <div class="mb_26">
           <img src="/images/products/logo-eden.svg" alt="logo-eden" />
         </div>
@@ -182,7 +186,7 @@
 
 <!-- sec_3p -->
 <!-- sec_4p -->
-<section class="sec_4p">
+<section class="sec_4p" id="id_sec_3">
   <div class="container">
     <h6>Features</h6>
     <h3>Deliver connected customer journeys</h3>
@@ -720,7 +724,7 @@
 <!-- sec_4p -->
 
 <!-- sec_5 -->
-<section class="sec_5p">
+<section class="sec_5p" id="id_sec_4">
   <h3>Integrate with your favourite apps</h3>
   <!-- <p>
     ERPNext has a host of built-in integrations that help your business take-off
@@ -765,7 +769,7 @@
 <!-- sec_5 -->
 {% include 'eden_app/www/why_choose_eden_sec.html' %}
 <!-- sec_6 -->
-<section class="sec_6p">
+<section class="sec_6p" id="id_sec_6">
   <div>
     <h6>PRICING</h6>
     <h4>Eden Learning Management System</h4>
@@ -774,7 +778,7 @@
       with Us!
     </p>
     <div>
-      <a>Read the blog</a>
+      <a href="/contact_us">Request a qoute</a>
     </div>
   </div>
 </section>
@@ -783,7 +787,4 @@
 {% include 'eden_app/www/trusted_companies_sec.html' %} {% include
 'eden_app/www/customer_stories_sec.html' %} {% include
 'eden_app/www/featured_news_sec.html' %} {% include
-'eden_app/www/get_started_last_sec.html' %}
-
-
-{% endblock %}
+'eden_app/www/get_started_last_sec.html' %} {% endblock %}
