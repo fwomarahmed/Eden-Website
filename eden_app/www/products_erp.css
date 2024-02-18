@@ -445,4 +445,7 @@ html {
   .sec_4p .nav-link {
     padding: 3px;
   }
+  .sec_12 .card_container {
+    min-width: 284px;
+  }
 }
