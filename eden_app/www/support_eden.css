@@ -1,0 +1,35 @@
+/* sec_1 */
+.sec_1 {
+  min-height: 270px;
+  background-image: url("./images/support/support_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* sec_1 */
+
+/* sec_2 */
+.sec_2 .title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #2159a6;
+  margin-bottom: 10px;
+}
+.sec_2 .subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000;
+  margin-bottom: 12px;
+  max-width: 645.3px;
+}
+
+.sec_2 table {
+  text-align: center;
+}
+.sec_2 table thead {
+  background-color: #2159a6;
+  color: white;
+  border-top-left-radius: 8px;
+}
+/* sec_2 */

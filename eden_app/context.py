@@ -2,6 +2,7 @@ import frappe
 
 
 def get_context(context):
+    context.no_cache = 1
     workshops = frappe.get_all(
         "Eden Workshops",
         fields=[
@@ -18,8 +19,19 @@ def get_context(context):
         "Eden Blogs",
         fields=["blog_title", "blog_subtitle", "blog_url_link", "blog_image"],
     )
+    community_blogs = frappe.get_all(
+        "Community Blogs",
+        fields=[
+            "blog_title",
+            "blog_subtitle",
+            "blog_writer_image",
+            "blog_hero_image",
+            "blog_writter",
+            "blog_date",
+        ],
+    )
 
     context["workshops"] = workshops
     context.blogs = blogs
-
+    context.community_blogs = community_blogs
     return context

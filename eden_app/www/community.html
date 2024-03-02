@@ -1,0 +1,55 @@
+{% extends "templates/web.html" %} {% block page_content %}
+
+<section class="sec_1">
+  <div class="hero_container">
+    <h6>OUR COMMUNITY</h6>
+    <h1>Step-by-step guide to choosing great font pairs</h1>
+    <p>
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident.
+    </p>
+    <a class="btn">Join Our Newslatter</a>
+  </div>
+</section>
+<!-- blogs details sec -->
+
+<section class="blog_details_sec">
+  <div class="container">
+    <h6>OUR BLOGS</h6>
+    <h3>Don’t miss out on any upcoming events by the team behind ERPNext!</h3>
+
+    <div class="row">
+      {% if community_blogs %} {% for community_blog in community_blogs %}
+
+      <div class="col-md-4">
+        <div class="card_container">
+          <div class="img_container">
+            <img src="images/community/blog_details_img.png" alt="" />
+          </div>
+          <h5>{{community_blog.blog_title}}</h5>
+          <p>{{community_blog.blog_subtitle}}</p>
+          <div class="blog_writter_wrapper">
+            <span>
+              {% if community_blog.blog_writer_image %}
+
+              <img src="{{community_blog.blog_writer_image}}" alt="" />
+              {% else %}
+              <img src="./images/community/blog_writer_img.png" alt="" />
+              {% endif %}
+            </span>
+            <span class="pr-2">By {{community_blog.blog_writter_name}} </span>
+            <span>{{community_blog.blog_date}} </span>
+          </div>
+        </div>
+      </div>
+      {% endfor %} {% else %}
+      <h4 class="sec_title">No Available Blogs</h4>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<!-- blogs details sec -->
+
+{% include 'eden_app/www/our_workshops_sec.html' %} {% endblock %}

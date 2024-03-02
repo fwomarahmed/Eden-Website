@@ -1,0 +1,66 @@
+{% extends "templates/web.html" %} {% block page_content %}
+<section class="sec_1"></section>
+
+<section class="sec_2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h4 class="title">How can we help?</h4>
+        <p class="subtitle">
+          Connect with the Dynamics 365 team for assistance linking people,
+          data, and processes across your organization. Get answers to your
+          questions from Dynamics 365 experts or
+        </p>
+
+        <div class="table_container">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Priority Level</th>
+                <th scope="col">Description</th>
+                <th scope="col">Target Response Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Critical</td>
+                <td>data, and processes across your organization.</td>
+                <td><span>Immediate</span></td>
+              </tr>
+              <tr>
+                <td>High</td>
+                <td>data, and processes across your organization.</td>
+                <td><span>10 minutes</span></td>
+              </tr>
+
+              <tr>
+                <td>Medium</td>
+                <td>data, and processes across your organization.</td>
+                <td><span>1 hour</span></td>
+              </tr>
+              <tr>
+                <td>Low</td>
+                <td>data, and processes across your organization.</td>
+                <td><span>24 hours</span></td>
+              </tr>
+            </tbody>
+            <tr>
+              <td>Very low</td>
+              <td>data, and processes across your organization.</td>
+              <td><span>Up to 7 days</span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h4>Submit Your Issue</h4>
+        <p>Send Your Issue and we’ll be in touch.</p>
+        <div>
+          <a class="btn btn-outline-info btn-lg" href="">Submit Issue</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

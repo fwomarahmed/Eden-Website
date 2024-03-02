@@ -1,0 +1,124 @@
+/* sec_1 */
+.sec_1 {
+  background-image: url("./images/community/bg_sec_1.png");
+  min-height: 485px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sec_1 .hero_container {
+  padding-top: 113px;
+  padding-left: 125px;
+  /* padding-bottom: 125px; */
+}
+.sec_1 h6 {
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.sec_1 h1 {
+  font-weight: 700;
+  color: white;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 2px;
+  max-width: 803px;
+}
+
+.sec_1 p {
+  font-weight: 400;
+  color: white;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  max-width: 600px;
+}
+
+.sec_1 a {
+  width: 266px;
+  height: 56px;
+  background-color: #2589ad;
+  color: white;
+  padding: 16px 48px;
+  box-shadow: 4px 4px 4px 0px #00000040;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+/* sec_1 */
+
+/* sec_2 blog details */
+.blog_details_sec {
+  padding-top: 39px;
+  padding-bottom: 113px;
+}
+.blog_details_sec h6 {
+  font-weight: 700;
+  color: #2589ad;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.9px;
+  padding-bottom: 10px;
+}
+.blog_details_sec h3 {
+  font-weight: 700;
+  color: #000;
+  font-size: 30px;
+  line-height: 34px;
+  letter-spacing: 0.32px;
+  padding-bottom: 22px;
+}
+.blog_details_sec .card_container {
+  border: 0.95px solid #00000020;
+  border-radius: 11.46px;
+  max-width: 375px;
+  margin-bottom: 26px;
+}
+.blog_details_sec .img_container {
+  padding-top: 7px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.blog_details_sec .img_container img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+.blog_details_sec h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.31px;
+  padding-top: 14px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color: #2159a6;
+}
+.blog_details_sec p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.31px;
+  /* padding-top: 14px; */
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color: #1E1E1E;
+  padding-right: 20px;
+}
+
+.blog_details_sec .blog_writter_wrapper {
+  padding-left: 20px;
+  padding-bottom: 19px;
+}
+.blog_details_sec .blog_writter_wrapper span{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.31px;
+}
+.blog_details_sec .blog_writter_wrapper img {
+  max-width: 28px;
+  max-height: 28px;
+  object-fit: contain;
+}
+/* sec_2 blog details*/
