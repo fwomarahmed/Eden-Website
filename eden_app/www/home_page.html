@@ -1,11 +1,5 @@
 {% extends "templates/web.html" %} {% block page_content %}
-
-<head>
-  <!-- <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  /> -->
-</head>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <section class="hero_sec">
   <div class="row">
@@ -16,8 +10,20 @@
           Transformation
         </h1>
         <div>
-          <a href="/contact_us" class="btn btn_quote">Request a quote </a>
-          <a href="/contact_us" class="btn btn_demo">Request a demo </a>
+          <button
+            class="btn btn_quote"
+            data-toggle="modal"
+            data-target="#quoteModal"
+          >
+            Request a quote
+          </button>
+          <button
+            class="btn btn_demo"
+            data-toggle="modal"
+            data-target="#demoModal"
+          >
+            Request a demo
+          </button>
         </div>
       </div>
     </div>
@@ -28,6 +34,414 @@
     </div>
   </div>
 </section>
+
+<!-- Modal for Request a quote -->
+<div
+  class="modal modal_home_sec fade show"
+  id="quoteModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal_header">
+        <h5 class="modal-title" id="exampleModalLabel">Request a Qoute</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <!-- <img class="close_icon" src="./images/home/modal/Vector.svg" alt=""> -->
+          <span class="close_icon" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>
+          Thank you for your interest in Pricing information for this Product
+        </h4>
+        <p class="">Simply fill out the form and we’ll be in touch.</p>
+        <div class="container">
+          <form class="modal_form quote_modal">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="first_name_id"
+                    >First Name <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="first_name_id"
+                    type="text"
+                    placeholder="Your First Name"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="first_name_id_error"
+                  ></small>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="last_name_id"
+                    >Last Name <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="last_name_id"
+                    type="text"
+                    placeholder="Your Last Name"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="last_name_id_error"
+                  ></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="country_id"
+                    >Country <span class="text_red">* </span>
+                  </label>
+                  <select
+                    class="form-control input_class first_option"
+                    id="country_id"
+                  >
+                    <option disabled selected value="">
+                      Select Your Country
+                    </option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="KSA">KSA</option>
+                  </select>
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="country_id_error"
+                  ></small>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="phone_number_id"
+                    >Phone Number <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="phone_number_id"
+                    type="number"
+                    placeholder="Text"
+                    min="0"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="phone_number_id_error"
+                  ></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="email_id"
+                    >Email <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="email_id"
+                    type="email"
+                    placeholder="Business e-mail address"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="email_id_error"
+                  ></small>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="company_id"
+                    >Company <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="company_id"
+                    type="text"
+                    placeholder="Your Company Name"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="company_id_error"
+                  ></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="no_of_employees"
+                    >Number of Employees <span class="text_red">* </span>
+                  </label>
+                  <select
+                    class="form-control input_class first_option"
+                    id="no_of_employees"
+                    type="number"
+                  >
+                    <option disabled selected value="">
+                      Select Number of Employees
+                    </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="more than 10">more than 10</option>
+                  </select>
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="no_of_employees_error"
+                  ></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 px-0">
+                <div class="input-group mb_18">
+                  <label class="label_class" for="message_input"
+                    >Message
+                  </label>
+                  <textarea
+                    id="message_input"
+                    class="form-control txt_area_class"
+                    placeholder="Your Message"
+                  ></textarea>
+                </div>
+              </div>
+              <div>
+                <p class="my_18 hint">* Please complete required fields</p>
+                <div>
+                  <button class="btn btn_submit">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal for Request a quote -->
+
+<!-- Modal for Request a Demo -->
+<div
+  class="modal modal_home_sec fade show"
+  id="demoModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal_header">
+        <h5 class="modal-title" id="exampleModalLabel">Request a Demo</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <!-- <img class="close_icon" src="./images/home/modal/Vector.svg" alt=""> -->
+          <span class="close_icon" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>
+          Thank you for your interest in receiving a demo of Eden solutions
+        </h4>
+        <p class="">Simply fill out the form and we’ll be in touch.</p>
+        <div class="container">
+          <form class="modal_form demo_modal">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="first_name_id"
+                    >First Name <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="first_name_id"
+                    type="text"
+                    placeholder="Your First Name"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="first_name_id_error"
+                  ></small>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="last_name_id"
+                    >Last Name <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="last_name_id"
+                    type="text"
+                    placeholder="Your Last Name"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="last_name_id_error"
+                  ></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="country_id"
+                    >Country <span class="text_red">* </span>
+                  </label>
+                  <select
+                    class="form-control input_class first_option"
+                    id="country_id"
+                  >
+                    <option disabled selected value="">
+                      Select Your Country
+                    </option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="KSA">KSA</option>
+                  </select>
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="country_id_error"
+                  ></small>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="phone_number_id"
+                    >Phone Number <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="phone_number_id"
+                    type="number"
+                    placeholder="Text"
+                    min="0"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="phone_number_id_error"
+                  ></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="email_id"
+                    >Email <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="email_id"
+                    type="email"
+                    placeholder="Business e-mail address"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="email_id_error"
+                  ></small>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="company_id"
+                    >Company <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="company_id"
+                    type="text"
+                    placeholder="Your Company Name"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="company_id_error"
+                  ></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="no_of_employees"
+                    >Number of Employees <span class="text_red">* </span>
+                  </label>
+                  <select
+                    class="form-control input_class first_option"
+                    id="no_of_employees"
+                    type="number"
+                  >
+                    <option disabled selected value="">
+                      Select Number of Employees
+                    </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="more than 10">more than 10</option>
+                  </select>
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="no_of_employees_error"
+                  ></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 px-0">
+                <div class="input-group mb_18">
+                  <label class="label_class" for="message_input"
+                    >Message
+                  </label>
+                  <textarea
+                    id="message_input"
+                    class="form-control txt_area_class"
+                    placeholder="Your Message"
+                  ></textarea>
+                </div>
+              </div>
+              <div>
+                <p class="my_18 hint">* Please complete required fields</p>
+                <div>
+                  <button class="btn btn_submit">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal for Request a Demo -->
 
 {% include 'eden_app/www/about_eden_sec.html' %}
 

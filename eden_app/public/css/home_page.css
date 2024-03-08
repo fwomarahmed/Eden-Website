@@ -1005,7 +1005,163 @@ p {
 }
 /* .sec_12 last sec */
 
+/* Modal sec */
+.modal_home_sec .modal-dialog {
+  min-width: 1282px;
+  max-width: 1282px;
+  min-height: 981px;
+  /* border: 1px solid red; */
+}
+.modal_home_sec .modal-header {
+  background-color: #2159a6;
+  color: white;
+  height: 85px;
+  padding: 0;
+}
+.modal_home_sec h5.modal-title {
+  padding-top: 25px;
+  padding-bottom: 26px;
+  padding-left: 128px;
+  font-weight: 700 !important;
+  font-size: 28px !important;
+  line-height: 33.6px !important;
+  color: white;
+}
+.modal_home_sec h5.modal-title .close span {
+  color: white;
+}
+.modal_home_sec .close_icon {
+  padding: 20px;
+}
+.modal_home_sec .close {
+  opacity: initial;
+  color: white;
+  font-size: 3rem;
+  display: inline-block;
+  padding-top: 31px;
+  padding-right: 25px;
+}
+.modal .modal-body {
+  padding-top: 12px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.modal_home_sec .modal-body h4 {
+  max-width: 531px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 4px;
+}
+.modal_home_sec .modal-body p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 22px;
+}
+.modal_home_sec .modal-body .input-group {
+  margin-bottom: 30px;
+}
+.modal_home_sec .modal-body .form-control {
+  width: 100%;
+}
+.modal_home_sec .modal-body .label_class {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6f7482;
+  width: 100%;
+}
+
+.modal_home_sec .modal-body .input_class {
+  max-width: 460px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #f8fafc;
+  /* border: 1px solid red; */
+}
+.mb_18 {
+  margin-bottom: 18px !important;
+}
+.my_18 {
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+.modal_home_sec .modal-body .txt_area_class {
+  width: 100%;
+  min-height: 163px;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #f8fafc;
+  /* border: 1px solid red; */
+}
+.modal_home_sec .hint {
+  font-family: Segoe UI;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 27px !important;
+  text-align: left !important;
+  color: #000000 !important;
+  padding-bottom: 0 !important;
+}
+.modal_home_sec .btn_submit {
+  width: 154px;
+  height: 54px;
+  padding: 15px 48px;
+  border-radius: 5px;
+  background: #2589ad;
+  box-shadow: 0px 0px 14px 0px #0000001f;
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.modal_home_sec .modal-body .input_class::placeholder,
+.modal_home_sec .first_option {
+  color: #b8bcca;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.text_red {
+  color: #ed0131;
+}
+
+.error_msg {
+  display: none;
+  width: 100%;
+  height: fit-content;
+}
+
+.modal .modal-content {
+  border: none;
+}
+.form-control.is-invalid {
+  border: 1px solid #dc3545;
+}
+.is-invalid {
+  border-color: #dc3545;
+}
+/* Modal sec */
+
 /* =======================media query ============================================ */
+@media (max-width: 1440px) {
+  .modal_home_sec .modal-body .container {
+    padding-left: 128px;
+    padding-right: 66px;
+  }
+}
+
 @media (max-width: 1270px) {
   .sec_12 .col-md-4 {
     padding-left: 15px !important;
@@ -1295,7 +1451,6 @@ p {
     padding: 5px;
   }
 }
-
 
 @media (max-width: 320px) {
   .sec_7 .nav-link {

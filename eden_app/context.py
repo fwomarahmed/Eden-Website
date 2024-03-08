@@ -26,7 +26,7 @@ def get_context(context):
             "blog_subtitle",
             "blog_writer_image",
             "blog_hero_image",
-            "blog_writter",
+            "blog_writter_name",
             "blog_date",
         ],
     )
