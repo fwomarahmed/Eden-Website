@@ -243,7 +243,7 @@ p {
   font-weight: 500;
   line-height: 1.0625rem;
   text-align: center;
-  padding: 0.3125rem 2.9375rem;
+  padding: 0.3125rem 2.9375rem !important;
 }
 
 .sec_3 .badge_notify {
@@ -300,10 +300,10 @@ p {
   line-height: 1.3125rem;
   text-align: left;
   color: #aad4f7;
-  padding: 0;
+  padding: 0 !important;
   /* margin-bottom: 1.25rem; */
-  padding-top: 1rem;
-  padding-bottom: 1.625rem;
+  padding-top: 1rem !important; 
+  padding-bottom: 1.625rem !important;
   width: 100%;
   display: flex;
 }

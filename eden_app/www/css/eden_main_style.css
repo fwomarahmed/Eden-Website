@@ -71,7 +71,7 @@
 /* ------------------------navbar */
 /* ------------------------footer */
 
-footer.footer {
+.eden_footer {
   background-color: #2159a6;
   min-height: 18.0625rem;
   color: white;
@@ -216,6 +216,7 @@ footer .fourth_col {
 footer .pt_26 {
   padding-top: 1.664375rem;
 }
+
 /* ------------------------footer */
 
 /* =======================media query ============================================ */

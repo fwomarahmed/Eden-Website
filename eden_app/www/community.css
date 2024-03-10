@@ -42,7 +42,7 @@
   height: 3.5rem;
   background-color: #2589ad;
   color: white;
-  padding: 1rem 3rem;
+  padding: 1rem 3rem !important;
   box-shadow: 0.25rem 0.25rem 0.25rem 0rem #00000040;
   font-weight: 700;
   font-size: 1.125rem;

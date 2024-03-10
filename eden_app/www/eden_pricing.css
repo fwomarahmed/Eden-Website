@@ -26,7 +26,7 @@
   line-height: 1.625rem;
   text-align: center;
   border-radius: 0.34375rem;
-  padding: 0.8125rem 6.375rem;
+  padding: 0.8125rem 6.375rem !important;
 }
 
 /* sec_1pr */
@@ -49,6 +49,7 @@
 .sec_2pr .card_container {
   min-width: 23.375rem;
   min-height: 27.875rem;
+  /* max-height: 523px; */
   border-radius: 0rem 0rem 0.625rem 0.625rem;
   background-color: #fff;
   box-shadow: 0rem 1rem 3rem 0rem #0000002d;
@@ -57,6 +58,9 @@
   padding-bottom: 1.8125rem;
   border-top: 0.5rem solid #2589ad;
   margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .sec_2pr .card_container h5 {
   padding-top: 1.4375rem;
@@ -104,7 +108,7 @@
   line-height: 1.5rem;
   text-align: left;
   color: #111827;
-  margin-bottom: 42%;
+  /* margin-bottom: 42%; */
 }
 
 .sec_2pr .card_container .btn_start {
@@ -160,6 +164,7 @@
   margin-right: 1rem;
   margin-left: 1rem;
   margin-bottom: 1rem;
+  width: 26%;
 }
 .sec_3pr .imgs_container img {
   width: 5.125rem;
@@ -185,7 +190,7 @@
 }
 .discover_sec .card_container {
   width: 32.625rem;
-  height: 19.4375rem;
+  /* height: 19.4375rem; */
   background-color: #2159a6;
   border-radius: 1.40375rem;
   position: relative;
@@ -212,6 +217,7 @@
 .discover_sec .card_container .icon_p_container {
   display: flex;
   padding-left: 2.3125rem;
+  padding-right: 2.3125rem;
   padding-bottom: 0.6875rem;
 }
 
@@ -273,6 +279,14 @@
   color: #000000;
 }
 
+.discover_sec .first_btn {
+  position: relative;
+  bottom: -27px;
+}
+.discover_sec .second_btn {
+  position: relative;
+  bottom: -75px;
+}
 /* discover_sec */
 
 /* =======================media query ============================================ */
@@ -300,12 +314,7 @@
   .sec_2pr .row {
     justify-content: center;
   }
-}
 
-@media (max-width: 768px) {
-  .sec_2pr .row {
-    justify-content: center;
-  }
 
   .discover_sec .row {
     justify-content: space-between;
@@ -316,7 +325,13 @@
   }
   .discover_sec .flex_end_tablet {
     justify-content: end;
+  }}
+
+@media (max-width: 768px) {
+  .sec_2pr .row {
+    justify-content: center;
   }
+
   .discover_sec .card_container {
     width: 90%;
   }
