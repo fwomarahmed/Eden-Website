@@ -303,7 +303,7 @@
 
 @media (max-width: 1200px) {
   .discover_sec .card_container {
-    width: auto;
+    width: 90%;
   }
   .sec_3pr .imgs_container {
     flex-wrap: wrap;

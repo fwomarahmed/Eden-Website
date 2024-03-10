@@ -209,11 +209,11 @@ html {
   font-style: normal;
   font-weight: 700;
   line-height: 1.75rem; /* 140% */
-  padding-bottom: 2.125rem;
+  padding-bottom: 2.125rem !important;
   border-radius: 0;
-  padding: 0;
-  padding-top: 2rem;
-  padding-bottom: 2.125rem;
+  padding: 0 !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2.125rem !important;
   /* padding-left: 3rem; */
 }
 .sec_4p .accordion_container {
