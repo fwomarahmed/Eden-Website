@@ -135,4 +135,17 @@
   border-top-right-radius: 0.5rem;
 }
 
+.btn_submit_support {
+  width: 20.25rem;
+  height: 3.6875rem;
+  padding: 1.1875rem 0rem;
+  border-radius: 0.25rem;
+  background: #2589ad;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.6875rem;
+  text-align: center;
+  color: #ffffff;
+}
 /* sec_2 */
