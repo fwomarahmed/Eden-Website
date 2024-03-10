@@ -1152,6 +1152,10 @@ p {
 .is-invalid {
   border-color: #dc3545;
 }
+.close:not(:disabled):not(.disabled):hover,
+.close:not(:disabled):not(.disabled):focus {
+  outline: none;
+}
 /* Modal sec */
 
 /* =======================media query ============================================ */
