@@ -1,4 +1,5 @@
 {% extends "templates/web.html" %} {% block page_content %}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <section class="sec_1">
   <div class="hero_container">
@@ -10,13 +11,22 @@
       Join our community to drive success, engage with experts, and navigate the
       future of innovation together.
     </p>
-    <button data-toggle="modal" data-target="#newsLetterModal" class="btn btn_newsletter">
+    <button
+      data-toggle="modal"
+      data-target="#newsLetterModal"
+      class="btn btn_newsletter"
+    >
       Join Our Newslatter
     </button>
   </div>
 </section>
 <!-- Modal for newsLetterModal -->
-<div class="modal fade news_letter" id="newsLetterModal" tabindex="-1" role="dialog">
+<div
+  class="modal fade news_letter"
+  id="newsLetterModal"
+  tabindex="-1"
+  role="dialog"
+>
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header modal_header">
@@ -33,7 +43,7 @@
         <div class="container">
           <form class="modal_form quote_modal">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="input-group">
                   <label class="label_class w-100" for="email_id"
                     >Email <span class="text_red">* </span>
@@ -43,7 +53,6 @@
                     id="email_id"
                     type="email"
                     placeholder="Business e-mail address"
-                    required
                   />
                   <small
                     class="form-text text-danger error_msg"
@@ -55,9 +64,7 @@
 
             <div class="row">
               <div>
-                <div>
-                  <button class="btn btn_submit">Submit</button>
-                </div>
+                <button class="btn btn_submit">Submit</button>
               </div>
             </div>
           </form>
