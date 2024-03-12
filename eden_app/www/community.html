@@ -10,9 +10,63 @@
       Join our community to drive success, engage with experts, and navigate the
       future of innovation together.
     </p>
-    <a class="btn">Join Our Newslatter</a>
+    <button data-toggle="modal" data-target="#newsLetterModal" class="btn btn_newsletter">
+      Join Our Newslatter
+    </button>
   </div>
 </section>
+<!-- Modal for newsLetterModal -->
+<div class="modal fade news_letter" id="newsLetterModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal_header">
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span class="close_icon" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <form class="modal_form quote_modal">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class w-100" for="email_id"
+                    >Email <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="email_id"
+                    type="email"
+                    placeholder="Business e-mail address"
+                    required
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="email_id_error"
+                  ></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div>
+                <div>
+                  <button class="btn btn_submit">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal for newsLetterModal -->
 <!-- blogs details sec -->
 
 <section class="blog_details_sec">
@@ -25,23 +79,24 @@
 
       <div class="col-md-4">
         <div class="card_container">
-          <div class="img_container">
-            <img src="images/community/blog_details_img.png" alt="" />
-          </div>
-          <h5>{{community_blog.blog_title}}</h5>
-          <p>{{community_blog.blog_subtitle}}</p>
-          <div class="blog_writter_wrapper">
-            <span>
-              {% if community_blog.blog_writer_image %}
-
-              <img src="{{community_blog.blog_writer_image}}" alt="" />
-              {% else %}
-              <img src="./images/community/blog_writer_img.png" alt="" />
-              {% endif %}
-            </span>
-            <span class="pr-2">By {{community_blog.blog_writter_name}} </span>
-            <span>{{community_blog.blog_date}} </span>
-          </div>
+          <a
+            class="text_reset"
+            href="{{community_blog.custom_blog_url_link}}"
+            target="_blank"
+          >
+            <div class="img_container">
+              <img src="{{community_blog.blog_hero_image}}" alt="" />
+            </div>
+            <h5>{{community_blog.blog_title}}</h5>
+            <p>{{community_blog.blog_subtitle}}</p>
+            <div class="blog_writer_wrapper">
+              <span>
+                <img src="{{community_blog.blog_writer_image}}" alt="" />
+              </span>
+              <span class="pr-2">By {{community_blog.blog_writer_name}} </span>
+              <span>{{community_blog.blog_date}} </span>
+            </div>
+          </a>
         </div>
       </div>
       {% endfor %} {% else %}

@@ -32,9 +32,9 @@
 
   box-shadow: 0rem 0.7090912461280823rem 1.4339401721954346rem 0rem #00000008;
 
-  box-shadow: 0rem 1.7948873043060303rem 3.8468198776245117rem 0rem #0000000A;
+  box-shadow: 0rem 1.7948873043060303rem 3.8468198776245117rem 0rem #0000000a;
 
-  box-shadow: 0rem 3.5454564094543457rem 8.824247360229492rem 0rem #0000000F;
+  box-shadow: 0rem 3.5454564094543457rem 8.824247360229492rem 0rem #0000000f;
   border-radius: 0.8125rem;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .table tbody tr {
-  border-bottom: 0.0625rem solid #E2E2E2;
+  border-bottom: 0.0625rem solid #e2e2e2;
 }
 
 .table tbody tr:last-child {
@@ -77,17 +77,18 @@
 }
 
 .table .mid_td {
-  border: 0.0625rem solid #E2E2E2;
+  border: 0.0625rem solid #e2e2e2;
   width: 11.75rem;
   height: 2.5625rem;
-  padding-top: 1.3125rem;
-  padding-right: 1.375rem;
-  padding-bottom: 0.3125rem;
-  padding-left: 1.5625rem;
+  padding-top: 0.7rem;
+  padding-right: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 0.7rem;
   color: #000000;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.6875rem;
+  text-align: left;
 }
 
 .table .mid_th {
@@ -116,7 +117,7 @@
 }
 
 .table tbody span {
-  background-color: #AAD4F7;
+  background-color: #aad4f7;
   width: 6.0625rem;
   height: 1.4375rem;
   padding: 0.1575rem 0.39375rem 0.23625rem 0.39375rem;
@@ -125,6 +126,8 @@
   font-size: 0.875rem;
   border-radius: 0.3125rem;
   display: inline-block;
+  line-height: 0rem;
+  padding: 1rem;
 }
 
 .table .first_th {
@@ -138,7 +141,7 @@
 .btn_submit_support {
   width: 20.25rem;
   height: 3.6875rem;
-  padding: 1.1875rem 0rem;
+  padding: 1.1875rem 0rem !important;
   border-radius: 0.25rem;
   background: #2589ad;
   font-family: Inter;

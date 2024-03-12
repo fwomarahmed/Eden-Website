@@ -141,10 +141,11 @@
 //     $("#" + fieldId + "_error").hide();
 //   }
 // });
-
 $(document).ready(function () {
   $(".modal_form").submit(function (event) {
+    console.log("aa");
     event.preventDefault();
+    console.log("bb");
 
     var form = $(this); // Get the current form that was submitted
 

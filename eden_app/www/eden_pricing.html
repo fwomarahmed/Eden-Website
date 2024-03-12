@@ -19,7 +19,7 @@
           <div class="mb_21"><sup>$</sup> <span class="price">500</span></div>
           <p class="first_p">
             All Business Apps +
-            <span class="fw_bold"> Industry Specific App</span>,
+            <span class="fw_bold"> Industry Specific App *</span>
 
             <li>Accounting</li>
             <li>CRM</li>
@@ -29,26 +29,26 @@
             <li>Project Managment</li>
             <li>Website</li>
           </p>
-          <p class="">Eden Cloud</p>
+          <p class="my-4">Eden Cloud</p>
           <p class="second_p">
             * Choose your industry: Retail, Manufacuring, HealthCare, Education,
             Services.
           </p>
-          <p class="second_p "></p>
+          <p class="second_p"></p>
 
           <div class="text-center py-6">
-            <button class="btn btn_start">Start Now</button>
+            <a href="/contact_us" class="btn btn_start">Start Now</a>
           </div>
         </div>
       </div>
 
       <div class="col-md-4">
-        <div class="card_container">
-          <h5>Yearly</h5>
+        <div class="card_container card_2_border">
+          <h5>On-premise</h5>
           <div class="mb_21"><sup>$</sup> <span class="price">18000</span></div>
           <p class="first_p">
             All Business Apps +
-            <span class="fw_bold"> Industry Specific App</span>,
+            <span class="fw_bold"> Industry Specific App *</span>,
 
             <li>Accounting</li>
             <li>CRM</li>
@@ -58,32 +58,35 @@
             <li>Project Managment</li>
             <li>Website</li>
           </p>
-          <p class="second_p">
+          <p class="second_p mt-4">
             * Choose your industry: Retail, Manufacuring, HealthCare, Education,
             Services.
           </p>
           <div class="text-center py-6">
-            <button class="btn btn_start">Start Now</button>
+            <a href="/contact_us" class="btn btn_start">Start Now</a>
           </div>
         </div>
       </div>
 
       <div class="col-md-4">
-        <div class="card_container">
+        <div class="card_container card_3_border">
           <h5>Custom</h5>
           <!-- <div class="mb_21"><sup>$</sup> <span class="price">3600</span></div> -->
           <p class="first_p">
             Elevate your business with Eden ERP:
             <span class="fw_bold">
-              <li>customizable,</li>
-              <li>integrates with 100+ apps to meet your unique needs.</li>
-
-              <li>Start your transformation</li>
+              Customizable, integrates with 100+ apps to meet your unique
+              needs.Start your transformation
             </span>
           </p>
-          <p class="second_p">Eden Cloud</p>
           <div class="text-center py-6">
-            <button class="btn btn_start">Request a Quote</button>
+            <button
+              class="btn btn_start bg_mint btn_quote"
+              data-toggle="modal"
+              data-target="#quoteModal"
+            >
+              Request a Quote
+            </button>
           </div>
         </div>
       </div>
@@ -109,10 +112,6 @@
           <p class="pt_8">Marketing</p>
         </div>
 
-        <div class="text-center">
-          <img src="./images/pricing/Sign.svg" alt="" />
-          <p class="pt_8">Sign</p>
-        </div>
         <div class="text-center">
           <img src="./images/pricing/Website.svg" alt="" />
           <p class="pt_8">Website</p>
@@ -167,14 +166,14 @@
           <p class="second_p"></p>
 
           <div class="text-center py-6">
-            <button class="btn btn_start">Start Now</button>
+            <a href="/contact_us" class="btn btn_start">Start Now</a>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card_container">
-          <h5>Yearly</h5>
-          <!-- <div class="mb_21"><sup>$</sup> <span class="price">1000</span></div> -->
+        <div class="card_container card_2_border">
+          <h5>On-premise</h5>
+          <div class="mb_21"><sup>$</sup> <span class="price">36000</span></div>
           <p class="first_p">
             <li>Learning Portal</li>
             <li>Instructor Studio</li>
@@ -185,22 +184,28 @@
           </p>
           <p class="second_p py-6"></p>
           <div class="text-center">
-            <button class="btn btn_start">Start Now</button>
+            <a href="/contact_us" class="btn btn_start">Start Now</a>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card_container">
+        <div class="card_container card_3_border">
           <h5>Custom</h5>
           <!-- <div class="mb_21"><sup>$</sup> <span class="price">1000</span></div> -->
           <p class="first_p">
             Explore endless possibilities with our Custom LMS. Unlock your ideas
             and contribute by contacting us now!
           </p>
-          <p class="second_p "></p>
+          <p class="second_p"></p>
 
           <div class="text-center py-6">
-            <button class="btn btn_start">Request a Quote</button>
+            <button
+              class="btn btn_start btn_quote"
+              data-toggle="modal"
+              data-target="#quoteModal"
+            >
+              Request a Quote
+            </button>
           </div>
         </div>
       </div>
@@ -315,7 +320,7 @@
             <span class="number"> 70%</span>
             <span class="description">Eden Migration Advantage Program </span>
           </div>
-          <h6>Zero Migration and Implementation Cost.</h6>
+          <h6>Eden Migration Advantage Program</h6>
           <div class="icon_p_container">
             <img src="./images/pricing/check_icon.svg" alt="" />
             <p class="px-1">Zero Migration and Implementation Cost.</p>
@@ -343,5 +348,207 @@
     </div>
   </div>
 </section>
+
+<!-- Modal for Request a quote -->
+<div
+  class="modal modal_home_sec fade show"
+  id="quoteModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal_header">
+        <h5 class="modal-title" id="exampleModalLabel">Request a Qoute</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <!-- <img class="close_icon" src="./images/home/modal/Vector.svg" alt=""> -->
+          <span class="close_icon" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>
+          Thank you for your interest in Pricing information for this Product
+        </h4>
+        <p class="">Simply fill out the form and we’ll be in touch.</p>
+        <div class="container">
+          <form class="modal_form quote_modal">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="first_name_id"
+                    >First Name <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="first_name_id"
+                    type="text"
+                    placeholder="Your First Name"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="first_name_id_error"
+                  ></small>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="last_name_id"
+                    >Last Name <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="last_name_id"
+                    type="text"
+                    placeholder="Your Last Name"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="last_name_id_error"
+                  ></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="country_id"
+                    >Country <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class first_option"
+                    id="country_id"
+                    placeholder="Select Your Country"
+                  />
+
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="country_id_error"
+                  ></small>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="phone_number_id"
+                    >Phone Number <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="phone_number_id"
+                    type="number"
+                    placeholder="Text"
+                    min="0"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="phone_number_id_error"
+                  ></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="email_id"
+                    >Email <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="email_id"
+                    type="email"
+                    placeholder="Business e-mail address"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="email_id_error"
+                  ></small>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="company_id"
+                    >Company <span class="text_red">* </span>
+                  </label>
+                  <input
+                    class="form-control input_class"
+                    id="company_id"
+                    type="text"
+                    placeholder="Your Company Name"
+                  />
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="company_id_error"
+                  ></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <label class="label_class" for="no_of_employees"
+                    >Number of Employees <span class="text_red">* </span>
+                  </label>
+                  <select
+                    class="form-control input_class first_option"
+                    id="no_of_employees"
+                    type="number"
+                  >
+                    <option disabled selected value="">
+                      Select Number of Employees
+                    </option>
+                    <option value="less 50">&lt; 50</option>
+                    <option value="less 200">&lt; 200</option>
+                    <option value="less 500">&lt; 500</option>
+                    <option value="less 1000">&lt; 1000</option>
+                  </select>
+                  <small
+                    class="form-text text-danger error_msg"
+                    id="no_of_employees_error"
+                  ></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 px-0">
+                <div class="input-group mb_18">
+                  <label class="label_class" for="message_input"
+                    >Message
+                  </label>
+                  <textarea
+                    id="message_input"
+                    class="form-control txt_area_class"
+                    placeholder="Your Message"
+                  ></textarea>
+                </div>
+              </div>
+              <div>
+                <p class="my_18 hint">* Please complete required fields</p>
+                <div>
+                  <button class="btn btn_submit">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal for Request a quote -->
+<script defer src="home_page.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 {% endblock %}

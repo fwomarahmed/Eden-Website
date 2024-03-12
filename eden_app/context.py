@@ -28,6 +28,8 @@ def get_context(context):
             "blog_hero_image",
             "blog_writter_name",
             "blog_date",
+            "custom_blog_url_link"
+            
         ],
     )
 
