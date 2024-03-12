@@ -120,7 +120,7 @@
 .sec_2pr .card_container .btn_start {
   width: 20.25rem;
   height: 3.6875rem;
-  padding: 1.1875rem 0rem;
+  padding: 1.1875rem 0rem !important;
   border-radius: 0.25rem;
   background: #2589ad;
   font-family: Inter;
@@ -230,7 +230,7 @@
 .discover_sec .card_container .btn_buy {
   width: 20.25rem;
   height: 3.6875rem;
-  padding: 1.1875rem 7.3125rem;
+  padding: 1.1875rem 7.3125rem !important;
   border-radius: 0.25rem;
   color: #ffffff;
   font-family: Inter;
@@ -404,7 +404,7 @@
     margin-top: 0.9375rem;
     width: 20.25rem;
     height: 3.6875rem;
-    padding: 1.1875rem 7.3125rem;
+    padding: 1.1875rem 7.3125rem !important;
   }
   .discover_sec .discount_container {
     width: 8.375rem;

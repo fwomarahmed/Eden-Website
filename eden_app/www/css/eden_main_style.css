@@ -7,6 +7,9 @@
   scroll-behavior: smooth;
 }
 /* ------------------------navbar */
+.page-content-wrapper {
+  padding-top: 72px !important;
+}
 .navbar {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
   background-color: #fff;
@@ -35,7 +38,7 @@
   font-size: 0.9375rem;
   line-height: 1.125rem;
   background-color: #2589ad;
-  padding: 0.5625rem 0.9375rem;
+  padding: 0.5625rem 0.9375rem !important;
 }
 
 .navbar .dropdown-item:active {
