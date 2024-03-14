@@ -4,7 +4,7 @@
   margin-top: 2rem;
 
   position: sticky !important;
-  top: 72px;
+  top: 47px;
   z-index: 99;
   padding: 0;
   /* height: 3.5rem; */
@@ -33,16 +33,14 @@
 .bg_blue_scroll .nav-pills .nav-link.active {
   color: black;
 }
-.scroll_spy .nav{
+.scroll_spy .nav {
   flex-wrap: nowrap;
 }
 
 /* scroll spy sec */
 
-
 @media (max-width: 768px) {
-
-  .scroll_spy{
+  .scroll_spy {
     display: none;
   }
 }

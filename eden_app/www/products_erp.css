@@ -354,7 +354,7 @@ html {
 
 .scroll_spy {
   position: sticky !important;
-  top: 72px;
+  top: 47px;
   z-index: 99;
   padding: 0;
   height: 3.5rem;

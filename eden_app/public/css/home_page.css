@@ -10,6 +10,11 @@ p {
   padding: 0;
 }
 
+.btn:active {
+  color: initial !important;
+  background-color: initial !important;
+  box-shadow: initial !important;
+}
 /* hero_sec */
 .hero_sec {
   height: 100vh;
@@ -299,10 +304,10 @@ p {
   font-weight: 700;
   line-height: 1.3125rem;
   text-align: left;
-  color: #aad4f7;
+  color: #aad4f7 !important;
   padding: 0 !important;
   /* margin-bottom: 1.25rem; */
-  padding-top: 1rem !important; 
+  padding-top: 1rem !important;
   padding-bottom: 1.625rem !important;
   width: 100%;
   display: flex;
@@ -451,6 +456,7 @@ p {
   min-height: 32.4375rem;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 2rem;
 }
 
 .sec_6 .img_container {
@@ -1334,6 +1340,9 @@ p {
     padding-left: 1rem;
     max-width: initial;
   } */
+  .swiper-backface-hidden .swiper-slide {
+    width: 704px;
+  }
 }
 
 /* Media Query for Medium Mobile Screen */
