@@ -433,6 +433,13 @@ html {
   .sec_5p .image_container {
     flex-wrap: wrap;
   }
+  .sec_4p .accordion_title{
+    text-align: left;
+    
+  }
+  .sec_4p .accordion_container{
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 375px) {

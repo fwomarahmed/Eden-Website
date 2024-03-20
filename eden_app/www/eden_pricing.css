@@ -49,6 +49,7 @@
 .sec_2pr .card_container {
   min-width: 23.375rem;
   min-height: 27.875rem;
+  height: 38.75rem;
   /* max-height: 523px; */
   border-radius: 0rem 0rem 0.625rem 0.625rem;
   background-color: #fff;
@@ -164,7 +165,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .sec_3pr .imgs_container div {
   margin-right: 1rem;
@@ -228,7 +229,7 @@
 }
 
 .discover_sec .card_container .btn_buy {
-  width: 20.25rem;
+  /* width: 20.25rem; */
   height: 3.6875rem;
   padding: 1.1875rem 7.3125rem !important;
   border-radius: 0.25rem;
@@ -291,7 +292,7 @@
 }
 .discover_sec .second_btn {
   position: relative;
-  bottom: -75px;
+  bottom: -95px;
 }
 .bg_mint {
   background-color: #00ceb3;
@@ -414,7 +415,7 @@
   }
   .discover_sec .second_btn {
     bottom: -21px;
-}
+  }
 }
 
 @media (max-width: 425px) {

@@ -30,7 +30,7 @@ p {
   font-size: 2.375rem;
   line-height: 3.375rem;
   color: white;
-  margin-bottom: 1.9375rem;
+  margin-bottom: .7rem;
   margin-top: 0;
 }
 
@@ -75,6 +75,15 @@ p {
 .row {
   margin-right: 0;
   margin-left: 0;
+}
+.hero_sec .hashtags {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: white;
+  padding-left: 1.375rem;
+  padding-right: 1.125rem;
+  padding-bottom: 3.8125rem;
 }
 
 /* hero_sec */
@@ -701,7 +710,14 @@ p {
   padding-right: 3.4375rem;
   color: black;
 }
-
+.sec_9 .targeting {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1875rem;
+  text-align: left;
+  color: black;
+  margin-bottom: 1rem;
+}
 .sec_9 .ratio_container {
   padding-left: 1.1875rem;
 }
