@@ -224,9 +224,9 @@
   margin-top: 0.875rem;
   margin-left: 2.6875rem;
 }
-.first_col {
+/* .first_col {
   margin-right: 8.375rem;
-}
+} */
 footer .second_col,
 footer .third_col {
   margin-right: 5rem;
@@ -271,8 +271,8 @@ body {
   }
 
   .footer .container {
-    padding-left: 6.1875rem !important;
-    padding-right: 6.1875rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
   }
   .first_col {
     margin-right: 3rem;
@@ -301,6 +301,10 @@ body {
   }
 }
 
+
+/* @media (max-width: 1200px){
+
+} */
 /* Media Query for Tablet Screen */
 @media (max-width: 1024px) {
   html,
@@ -348,6 +352,12 @@ body {
 
   .contact_info_text {
     font-size: 0.8rem;
+  }
+  .text_sm_cemter{
+    text-align: center !important;
+  }
+  .social_icon_container{
+    justify-content: center;
   }
 }
 /* Media Query for Medium Mobile Screen */

@@ -66,7 +66,7 @@ html {
   box-shadow: 0rem 0.15448112785816193rem 0.30896225571632385rem 0rem #00000024;
   border-radius: 1.85375rem;
   max-width: 21.8125rem;
-  min-height: 23.1875rem;
+  height: 27.1875rem;
 }
 .sec_2p .image_container {
   padding: 0.45075rem 0.637125rem 0.00125rem 0.625rem;
@@ -354,7 +354,7 @@ html {
 
 .scroll_spy {
   position: sticky !important;
-  top: 47px;
+  top: 72px;
   z-index: 99;
   padding: 0;
   height: 3.5rem;
