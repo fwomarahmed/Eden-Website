@@ -301,7 +301,6 @@ body {
   }
 }
 
-
 /* @media (max-width: 1200px){
 
 } */
@@ -353,10 +352,10 @@ body {
   .contact_info_text {
     font-size: 0.8rem;
   }
-  .text_sm_cemter{
+  .text_sm_cemter {
     text-align: center !important;
   }
-  .social_icon_container{
+  .social_icon_container {
     justify-content: center;
   }
 }
@@ -393,6 +392,7 @@ body {
   .eden_footer {
     min-height: auto;
   }
+
 }
 
 /* Media Query for Small Mobile Screen */
@@ -400,6 +400,12 @@ body {
   html,
   body {
     font-size: 11px !important;
+  }
+  .footer .text_sm_left {
+    text-align: left !important;
+  }
+  .social_icon_container {
+    justify-content: flex-start;
   }
 }
 

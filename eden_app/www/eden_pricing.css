@@ -344,7 +344,7 @@
     justify-content: end;
   }
   .discover_sec .second_btn {
-    bottom: -63px;
+    bottom: -119px;
   }
 }
 
@@ -355,6 +355,7 @@
 
   .discover_sec .card_container {
     width: auto;
+    margin: 1rem;
   }
   .discover_sec .card_container h6 {
     padding-bottom: 0.5rem;
@@ -379,7 +380,7 @@
     bottom: -20px;
   }
   .discover_sec .second_btn {
-    bottom: -70px;
+    bottom: -103px;
   }
 }
 
@@ -403,7 +404,7 @@
   }
   .discover_sec .card_container .btn_buy {
     margin-top: 0.9375rem;
-    width: 20.25rem;
+    width: initial;
     height: 3.6875rem;
     padding: 1.1875rem 7.3125rem !important;
   }

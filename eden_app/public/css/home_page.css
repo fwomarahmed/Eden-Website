@@ -1506,13 +1506,15 @@ p {
   .sec_7 .img_container img {
     width: auto;
   }
-  /* .modal_home_sec .modal-body h4 {
-    max-width: 80rem;
-    font-size: 1.1rem;
+  .sec_3 .btn_reginster {
+    padding: 0.8rem 4rem !important;
   }
-  .modal_home_sec .modal-body .input_class {
-    max-width: 52%;
-} */
+ 
+
+  .sec_4 .accordion_title {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
 }
 
 @media (max-width: 375px) {
