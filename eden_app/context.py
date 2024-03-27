@@ -19,21 +19,21 @@ def get_context(context):
         "Eden Blogs",
         fields=["blog_title", "blog_subtitle", "blog_url_link", "blog_image"],
     )
-    # community_blogs = frappe.get_all(
-    #     "Community Blogs",
-    #     fields=[
-    #         "blog_title",
-    #         "blog_subtitle",
-    #         "blog_writer_image",
-    #         "blog_hero_image",
-    #         "blog_writter_name",
-    #         "blog_date",
-    #         "custom_blog_url_link"
+    community_blogs = frappe.get_all(
+        "Community Blogs",
+        fields=[
+            "blog_title",
+            "blog_subtitle",
+            "blog_writer_image",
+            "blog_hero_image",
+            "blog_writter_name",
+            "blog_date",
+            "custom_blog_url_link"
             
-    #     ],
-    # )
+        ],
+    )
 
     context["workshops"] = workshops
     context.blogs = blogs
-    # context.community_blogs = community_blogs
+    context.community_blogs = community_blogs
     return context
