@@ -221,4 +221,4 @@ home_page = "home_page"
 # 	"eden_app.auth.validate"
 # ]
 
-fixtures = ["Eden Worksops", "Eden Blogs"]
+# fixtures = ["Eden Worksops", "Eden Blogs"]

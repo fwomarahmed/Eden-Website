@@ -24,7 +24,7 @@ def get_context(context):
         fields=[
             "blog_title",
             "blog_subtitle",
-            "blog_writer_image",
+            "blog_writter_image",
             "blog_hero_image",
             "blog_writter_name",
             "blog_date",

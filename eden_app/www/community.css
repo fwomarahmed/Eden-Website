@@ -167,6 +167,22 @@
   font-size: 1.125rem;
   /* line-height: 1.5rem; */
 }
+
+.blog_writer_wrapper {
+  padding-left: 20px;
+  padding-bottom: 19px;
+}
+.blog_writer_wrapper img {
+  width: 27.37px;
+  height: 27.37px;
+}
+.blog_writer_wrapper span{
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-align: left;
+  color: #4c5a67;
+}
 /* sec_2 blog details*/
 
 @media (max-width: 425px) {

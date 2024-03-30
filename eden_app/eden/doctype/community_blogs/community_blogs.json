@@ -10,11 +10,11 @@
  "field_order": [
   "blog_title",
   "blog_subtitle",
-  "blog_writer_image",
   "blog_hero_image",
   "blog_writter_name",
   "blog_date",
-  "custom_blog_url_link"
+  "custom_blog_url_link",
+  "blog_writter_image"
  ],
  "fields": [
   {
@@ -27,11 +27,6 @@
    "fieldname": "blog_subtitle",
    "fieldtype": "Long Text",
    "label": "Blog Subtitle"
-  },
-  {
-   "fieldname": "blog_writer_image",
-   "fieldtype": "Attach Image",
-   "label": "Blog Writer Image"
   },
   {
    "fieldname": "blog_hero_image",
@@ -52,11 +47,16 @@
    "fieldname": "custom_blog_url_link",
    "fieldtype": "Data",
    "label": "Custom Blog Url Link"
+  },
+  {
+   "fieldname": "blog_writter_image",
+   "fieldtype": "Attach Image",
+   "label": "Blog Writter Image"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-26 04:42:16.773359",
+ "modified": "2024-03-28 00:28:35.561871",
  "modified_by": "Administrator",
  "module": "eden",
  "name": "Community Blogs",

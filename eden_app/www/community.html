@@ -99,10 +99,16 @@
             <h5>{{community_blog.blog_title}}</h5>
             <p>{{community_blog.blog_subtitle}}</p>
             <div class="blog_writer_wrapper">
+              {% if community_blog.blog_writter_image %}
               <span>
-                <img src="{{community_blog.blog_writer_image}}" alt="" />
+                <img src="{{community_blog.blog_writter_image}}" alt="" />
               </span>
-              <span class="pr-2">By {{community_blog.blog_writer_name}} </span>
+              {% endif %}
+
+              {% if community_blog.blog_writter_name %}
+              <span class="px-2">By {{community_blog.blog_writter_name}} </span>
+              {% endif %}
+
               <span>{{community_blog.blog_date}} </span>
             </div>
           </a>
